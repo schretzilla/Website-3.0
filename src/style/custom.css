@@ -164,6 +164,15 @@ body {
   height: 100%;
 }
 
+.subjectHeader {
+  font-weight: 'normal';
+  color: '#000000';
+  word-spacing: '2pt';
+  font-size: '70px';
+  font-family: 'georgia';
+  text-align: 'center';
+}
+
 /* Featurettes
 ------------------------- */
 
