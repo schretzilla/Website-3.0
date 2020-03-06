@@ -6,6 +6,7 @@ import Intro from './Introduction/Intro';
 import ExperienceView from './Experience/ExperienceView';
 import ProjectView from './Projects/ProjectsView';
 import TechStack from './TechStack/TechStack';
+import EducationView from './Education/EducationView';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ExperienceView />
       <ProjectView />
       <TechStack />
+      <EducationView />
     </Container>
   );
 }
