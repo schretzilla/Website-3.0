@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 import Project from './components/Project';
 
@@ -18,7 +17,7 @@ const subjectHeader = {
 const ProjectView = props => {
   return (
     <>
-      <Row>
+      <Row className="featurette">
         <h2 style={subjectHeader}>Projects</h2>
       </Row>
       <Project />

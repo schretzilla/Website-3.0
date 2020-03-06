@@ -1,0 +1,196 @@
+.vertical-center {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  bottom: 90%;
+  right: 0;
+  margin: auto;
+  color: white;
+}
+
+#name-header {
+  font-size: 65px;
+}
+
+#name-description {
+  font-family: Optima;
+}
+.jumbotron {
+  background-color: transparent;
+}
+
+.dl-horizontal {
+  font-size: 30;
+}
+
+.subject-header {
+  font-weight: normal;
+  color: #000000;
+  word-spacing: 2pt;
+  font-size: 70px;
+  text-align: left;
+  font-family: georgia, serif;
+  text-align: center;
+}
+
+.company-name {
+  font-weight: normal;
+  color: #000000;
+  letter-spacing: 2pt;
+  word-spacing: 2pt;
+  font-size: 50px;
+  text-align: left;
+  font-family: georgia, serif;
+  line-height: 1;
+}
+
+.subject-sub-date {
+  font-weight: normal;
+  color: #000000;
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: georgia, serif;
+  line-height: 1;
+}
+
+.small-date {
+  font-weight: normal;
+  color: #000000;
+  font-size: 15px;
+  font-family: georgia, serif;
+  line-height: 1;
+}
+.job-title {
+  font-weight: normal;
+  color: #000000;
+  word-spacing: 2pt;
+  font-size: 40px;
+  text-align: left;
+  font-family: georgia, serif;
+}
+
+.isdr-job-title {
+  font-weight: normal;
+  color: #000000;
+  word-spacing: 2pt;
+  font-size: 30px;
+  text-align: left;
+  font-family: georgia, serif;
+}
+
+.job-description {
+  font-size: 25px;
+  color: #515151;
+}
+
+.job-team-name {
+  font-weight: normal;
+  color: #000000;
+  font-size: 30px;
+  text-align: left;
+  font-family: georgia, serif;
+}
+
+.job-key-points {
+  font-weight: normal;
+  color: #000000;
+  font-size: 20px;
+  text-align: left;
+  font-family: georgia, serif;
+}
+
+.top-buffer {
+  margin-top: 50px;
+}
+
+.contact-info {
+  font-size: 15px;
+}
+
+.about-me {
+  font-size: 25px;
+}
+
+.parallax {
+  /* The image used */
+  /* background-image: url('../img/delicate-arch.13e721284a73.jpg'); */
+
+  /* Set a specific height */
+  min-height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones.*/
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+/* Carosel Styles */
+.slick-prev:before {
+  color: black;
+}
+
+.slick-next:before {
+  color: black;
+}
+
+/* YouTube Div Container that makes the embeded video responsive */
+.youtube-container {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.youtube-container iframe,
+.youtube-container object,
+.youtube-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+  font-size: 50px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}

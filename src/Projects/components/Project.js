@@ -3,6 +3,8 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import '../../style/custom.css';
+
 const Project = props => {
   const projectName = 'Project Name';
   const catchPhrase = 'some catch phrase';
@@ -11,11 +13,7 @@ const Project = props => {
   const extraDetails = ['extra info 1', 'extra info 2', 'extra info 3'];
 
   const extraDetailsList = extraDetails.map((detail, i) => {
-    return (
-      <li className="list-inline-item" key={`${projectName}-detail-${i}`}>
-        {detail}
-      </li>
-    );
+    return <li key={`${projectName}-detail-${i}`}>{detail}</li>;
   });
 
   const tools = ['tool1', 'tool2', 'tool3'];
@@ -40,17 +38,17 @@ const Project = props => {
   return (
     <>
       <Row>
-        <Col sm={12} md={3}>
+        <Col sm={12} md={5}>
           Image goes here
         </Col>
         <Col sm={12} md={7}>
-          <h2>
-            {projectName}
-            <span>{catchPhrase}</span>
+          <h2 className="featurette-heading">
+            {projectName}&nbsp;
+            <small className="text-muted">{catchPhrase}</small>
           </h2>
-          <p>{blurb}</p>
+          <p className="lead">{blurb}</p>
 
-          <ol className="list-inline">{extraDetailsList}</ol>
+          <ol>{extraDetailsList}</ol>
 
           <ul className="list-inline">
             <li className="list-inline-item">
@@ -71,6 +69,8 @@ const Project = props => {
           </h5>
         </Col>
       </Row>
+
+      <hr className="featurette-divider" />
     </>
   );
 };
