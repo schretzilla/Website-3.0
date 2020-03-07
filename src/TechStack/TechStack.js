@@ -13,7 +13,7 @@ import pythonIcon from '../Images/python.png';
 const TechStack = props => {
   return (
     <>
-      <Row>
+      <Row className="justify-content-center">
         <h2 className="subject-header">My current tech stack</h2>
       </Row>
 
