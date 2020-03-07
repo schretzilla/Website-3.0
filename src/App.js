@@ -13,9 +13,11 @@ import TechStack from './TechStack/TechStack';
 import EducationView from './Education/EducationView';
 import ExtraActivities from './ExtraActivites/ExtraActivites';
 
+import './style/custom.css';
+
 function App() {
   return (
-    <Container>
+    <Container className="marketing">
       <Intro />
       <ExperienceView />
       <ProjectView />
