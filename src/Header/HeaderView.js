@@ -10,7 +10,7 @@ const Header = () => {
       <div className="parallax">
         <Container>
           <div className="vertical-center jumbotron">
-            <h1 id="name-header">Scott Schretzenmaier</h1>
+            <h1 className="name-header">Scott Schretzenmaier</h1>
             <p id="name-description">
               Software Engineer, Bug Squasher, Adventure Seeker
             </p>

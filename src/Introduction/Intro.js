@@ -7,10 +7,17 @@ import profilePhoto from '../Images/Profile-Photo.png';
 import githubIcon from '../Images/github-icon.png';
 import linkedInIcon from '../Images/linkedin-logo.png';
 
+import '../style/custom.css';
+
 const Intro = props => {
+  const style = {
+    introContainer: {
+      marginTop: '40px'
+    }
+  };
   return (
     <>
-      <Row>
+      <Row style={style.introContainer}>
         <Col sm={12} md={6}>
           <img
             className="img-fluid"
@@ -19,8 +26,8 @@ const Intro = props => {
           />
         </Col>
         <Col sm={12} md={6}>
-          <h1>Hi, I'm Scott</h1>
-          <p>
+          <h1 className="hello-header">Hi, I'm Scott</h1>
+          <p className="about-me">
             I'm a motivated guy who loves building awesome defense software. I
             prefer backend development but I dabble with a bit of everything.
             I'm also a big fan of agile processes, both in development and in

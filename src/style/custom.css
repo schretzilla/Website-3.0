@@ -8,9 +8,8 @@
   color: white;
 }
 
-#name-header {
-  font-size: 65px;
-  text-align: center;
+#introduction-header {
+  font-size: 58px;
 }
 
 #name-description {
@@ -27,21 +26,38 @@
   font-size: 30;
 }
 
+.name-header {
+  font-weight: normal;
+  color: #ffffff;
+  word-spacing: 2pt;
+  font-size: 58px;
+  font-family: georgia, serif;
+  text-align: center;
+}
+
+.hello-header {
+  font-weight: normal;
+  color: #000000;
+  word-spacing: 2pt;
+  font-size: 58px;
+  font-family: georgia, serif;
+  text-align: center;
+}
+
 .subject-header {
+  text-align: center;
   font-weight: normal;
   color: #000000;
   word-spacing: 2pt;
   font-size: 70px;
-  text-align: left;
   font-family: georgia, serif;
-  text-align: center;
 }
 
 .company-name {
   font-weight: normal;
   color: #000000;
-  letter-spacing: 2pt;
-  word-spacing: 2pt;
+  letter-spacing: 1pt;
+  word-spacing: 1pt;
   font-size: 50px;
   text-align: left;
   font-family: georgia, serif;
@@ -51,7 +67,8 @@
 .subject-sub-date {
   font-weight: normal;
   color: #000000;
-  margin-top: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
   font-size: 30px;
   font-family: georgia, serif;
   line-height: 1;
@@ -113,6 +130,7 @@
 
 .about-me {
   font-size: 25px;
+  font-weight: 300;
 }
 
 .parallax {
@@ -175,6 +193,11 @@ body {
   font-size: '70px';
   font-family: 'georgia';
   text-align: 'center';
+}
+
+.footer {
+  float: right;
+  margin-top: 25px;
 }
 
 /* Featurettes

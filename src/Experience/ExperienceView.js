@@ -1,24 +1,16 @@
 import React from 'react';
 
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 import Details from './Components/Details';
 
-const subjectHeader = {
-  fontWeight: 'normal',
-  color: '#000000',
-  wordSpacing: '2pt',
-  fontSize: '70px',
-  fontFamily: 'georgia',
-  textAlign: 'center'
-};
+import '../style/custom.css';
 
 const ExperienceView = props => {
   return (
     <>
-      <Row>
-        <h2 style={subjectHeader}>Experience</h2>
+      <Row className="justify-content-center">
+        <h2 className="subject-header">Experience</h2>
       </Row>
       <Details />
     </>

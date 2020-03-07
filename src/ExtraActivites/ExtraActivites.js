@@ -10,7 +10,7 @@ import '../style/custom.css';
 const ExtraActivites = () => {
   return (
     <>
-      <Row className="featurette">
+      <Row className="justify-content-center">
         <h2 className="subject-header">Away from the Screen</h2>
       </Row>
 

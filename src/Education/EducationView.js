@@ -12,7 +12,7 @@ import graduationPhoto from '../Images/graduation.jpg';
 const Education = props => {
   return (
     <>
-      <Row className="featurette">
+      <Row className="justify-content-center">
         <h2 className="subject-header">Education</h2>
       </Row>
 
@@ -43,6 +43,8 @@ const Education = props => {
           </ul>
         </Col>
       </Row>
+
+      <hr className="featurette-divider" />
     </>
   );
 };

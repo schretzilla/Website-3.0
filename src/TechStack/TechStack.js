@@ -10,8 +10,6 @@ import javaScriptIcon from '../Images/javascript.png';
 import dotNetIcon from '../Images/microsoft-net.png';
 import pythonIcon from '../Images/python.png';
 
-import '../style/custom.css';
-
 const TechStack = props => {
   return (
     <>
@@ -21,24 +19,24 @@ const TechStack = props => {
 
       <Row className="justify-content-center">
         <Col xs={4}>
-          <img src={cSharpIcon} />
+          <img src={cSharpIcon} alt="c#" />
         </Col>
         <Col xs={4}>
-          <img src={bootstrapIcon} />
+          <img src={bootstrapIcon} alt="bootstrap css framework" />
         </Col>
         <Col xs={4}>
-          <img src={djangoIcon} />
+          <img src={djangoIcon} alt="django" />
         </Col>
       </Row>
       <Row>
         <Col xs={4}>
-          <img src={javaScriptIcon} />
+          <img src={javaScriptIcon} alt="javascript" />
         </Col>
         <Col xs={4}>
-          <img src={dotNetIcon} />
+          <img src={dotNetIcon} alt=".Net Framework" />
         </Col>
         <Col xs={4}>
-          <img src={pythonIcon} />
+          <img src={pythonIcon} alt="python" />
         </Col>
       </Row>
 

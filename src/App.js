@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 import Container from 'react-bootstrap/Container';
 
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 // Slick Carousel styling
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -27,6 +30,9 @@ function App() {
         <TechStack />
         <EducationView />
         <ExtraActivities />
+      </Container>
+      <Container>
+        <Row className="footer">Updated: 3/2020</Row>
       </Container>
     </>
   );
