@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import HeaderView from './Header/HeaderView';
 import Intro from './Introduction/Intro';
 import ExperienceView from './Experience/ExperienceView';
 import ProjectView from './Projects/ProjectsView';
@@ -17,14 +18,17 @@ import './style/custom.css';
 
 function App() {
   return (
-    <Container className="marketing">
-      <Intro />
-      <ExperienceView />
-      <ProjectView />
-      <TechStack />
-      <EducationView />
-      <ExtraActivities />
-    </Container>
+    <>
+      <HeaderView />
+      <Container className="marketing">
+        <Intro />
+        <ExperienceView />
+        <ProjectView />
+        <TechStack />
+        <EducationView />
+        <ExtraActivities />
+      </Container>
+    </>
   );
 }
 

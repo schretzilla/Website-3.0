@@ -10,10 +10,14 @@
 
 #name-header {
   font-size: 65px;
+  text-align: center;
 }
 
 #name-description {
   font-family: Optima;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 .jumbotron {
   background-color: transparent;
@@ -113,7 +117,7 @@
 
 .parallax {
   /* The image used */
-  /* background-image: url('../img/delicate-arch.13e721284a73.jpg'); */
+  background-image: url('../Images/delicate-arch.jpg');
 
   /* Set a specific height */
   min-height: 1000px;
@@ -164,7 +168,7 @@ body {
   height: 100%;
 }
 
-.subjectHeader {
+.subject-header {
   font-weight: 'normal';
   color: '#000000';
   word-spacing: '2pt';
