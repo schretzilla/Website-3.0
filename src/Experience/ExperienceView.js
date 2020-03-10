@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 
 import Details from './Components/Details';
 
+import { experienceData } from '../Data/Experience';
 import '../style/custom.css';
 
 const ExperienceView = props => {
@@ -12,7 +13,7 @@ const ExperienceView = props => {
       <Row className="justify-content-center">
         <h2 className="subject-header">Experience</h2>
       </Row>
-      <Details />
+      <Details experienceData={experienceData} />
     </>
   );
 };

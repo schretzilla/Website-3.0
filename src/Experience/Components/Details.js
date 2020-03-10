@@ -6,15 +6,15 @@ import Col from 'react-bootstrap/Col';
 import '../../style/custom.css';
 
 const Details = props => {
-  const company = 'Company Name/ logo';
-  const title = 'Job title';
-  const dates = 'from date / to date';
-  const description = 'Job highlight or description gos on this line';
-  const teams = 'Team Name Goes on this line';
-  const keyPoints = [
-    'This is a list element saying what you did',
-    'This is a list element saying more of what you did'
-  ];
+  const { experienceData } = props;
+  const {
+    company,
+    title,
+    dates,
+    description,
+    teams,
+    keyPoints
+  } = experienceData;
 
   const keyPointElement = keyPoints.map((keyPoint, i) => {
     return (
