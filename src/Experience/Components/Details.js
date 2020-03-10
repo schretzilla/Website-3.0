@@ -13,7 +13,8 @@ const Details = props => {
     dates,
     description,
     teams,
-    keyPoints
+    keyPoints,
+    link
   } = experienceData;
 
   const keyPointElement = keyPoints.map((keyPoint, i) => {
@@ -23,6 +24,13 @@ const Details = props => {
       </li>
     );
   });
+
+  const linkToExtraData = (
+    <a target="_blank" href={link.address} rel="noopener noreferrer">
+      {link.name}
+    </a>
+  );
+
   return (
     <>
       <Row>
@@ -37,7 +45,9 @@ const Details = props => {
 
       <Row>
         <Col sm={12}>
-          <p className="job-description">{description}</p>
+          <p className="job-description">
+            {description} {linkToExtraData}{' '}
+          </p>
           <p className="job-team-name">{teams}</p>
         </Col>
 
