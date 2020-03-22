@@ -1,3 +1,11 @@
+import trailCamera from "../Images/trail-camera-placement.jpeg";
+import gameBoy from "../Images/game-boy.png";
+import selfHelp from "../Images/self-help.png";
+import smartEgg from "../Images/smart-egg.png";
+import algorithmAnimation from "../Images/algorithm-animation.png";
+import xCountryAdventure from "../Images/x-country-adventure.png";
+import exquizit from "../Images/exquizit.png";
+
 export const projectData = [
   {
     name: "Smart Bird Feeder!",
@@ -12,7 +20,11 @@ export const projectData = [
     ],
     tools: ["Android SDK", "Java", "A 3D Enclosure", "Teensy 3.2"],
     team: ["Avery Bodenstein", "Andrew Miyaguchi", "John Madden"],
-    date: "July/2019"
+    date: "July/2019",
+    image: {
+      name: "trail camera",
+      src: trailCamera
+    }
   },
   {
     name: "Super Pi Boy",
@@ -27,7 +39,11 @@ export const projectData = [
       "Solder & Soldering Iron"
     ],
     team: [],
-    date: "March/2019"
+    date: "March/2019",
+    image: {
+      name: "",
+      src: gameBoy
+    }
   },
   {
     name: "Von Karman Challenge",
@@ -42,7 +58,11 @@ export const projectData = [
       "Doug Toperzer",
       "Michael Uy"
     ],
-    date: "October/2018"
+    date: "October/2018",
+    image: {
+      name: "",
+      src: "selfHelp"
+    }
   },
   {
     name: "Project Smart Egg!",
@@ -57,7 +77,11 @@ export const projectData = [
       "Bluma's CSS Framework"
     ],
     team: ["Andrew Miyaguchi"],
-    date: "February/2018"
+    date: "February/2018",
+    image: {
+      name: "",
+      src: smartEgg
+    }
   },
   {
     name: "Algorithm Animation",
@@ -67,7 +91,11 @@ export const projectData = [
     extraDetails: [],
     tools: ["D3 v4", "Twitter Bootstrap v3", "Hosted using Github Pages"],
     team: [],
-    date: "January/2018"
+    date: "January/2018",
+    image: {
+      name: "",
+      src: algorithmAnimation
+    }
   },
   {
     name: "Adventure America",
@@ -82,7 +110,11 @@ export const projectData = [
       "Hosted using Github Pages"
     ],
     team: [],
-    date: "January/2017"
+    date: "January/2017",
+    image: {
+      name: "",
+      src: xCountryAdventure
+    }
   },
   {
     name: "ExQuizit",
@@ -100,7 +132,11 @@ export const projectData = [
       "Hosted using Heroku"
     ],
     team: [],
-    date: "June/2016"
+    date: "June/2016",
+    image: {
+      name: "",
+      src: exquizit
+    }
   },
   {
     name: "Service Base V",
@@ -117,6 +153,10 @@ export const projectData = [
       "ADO .Net Entity Framework"
     ],
     team: [],
-    date: "January/2015"
+    date: "January/2015",
+    image: {
+      name: "",
+      src: selfHelp
+    }
   }
 ];
