@@ -29,8 +29,12 @@ const Project = props => {
   });
 
   const imageColumn = (
-    <Col sm={12} md={5}>
-      Image goes here
+    <Col sm={{ order: 1, span: 12 }} md={{ order: 0, span: 5 }}>
+      <img
+        className="img-fluid"
+        src={projectData.image.src}
+        alt={projectData.image.name}
+      />
     </Col>
   );
 
