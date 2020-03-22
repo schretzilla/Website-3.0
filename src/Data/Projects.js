@@ -21,8 +21,9 @@ export const projectData = [
     tools: ["Android SDK", "Java", "A 3D Enclosure", "Teensy 3.2"],
     team: ["Avery Bodenstein", "Andrew Miyaguchi", "John Madden"],
     date: "July/2019",
-    image: {
-      name: "trail camera",
+    media: {
+      type: "image",
+      name: "trail camera 3-D model",
       src: trailCamera
     }
   },
@@ -40,8 +41,9 @@ export const projectData = [
     ],
     team: [],
     date: "March/2019",
-    image: {
-      name: "",
+    media: {
+      type: "image",
+      name: "Pi Boy - Game Boy",
       src: gameBoy
     }
   },
@@ -59,9 +61,9 @@ export const projectData = [
       "Michael Uy"
     ],
     date: "October/2018",
-    image: {
+    media: {
       type: "video",
-      name: "",
+      name: "Von Karman Rover",
       src: "https://www.youtube.com/embed/j-f__uynkvQ"
     }
   },
@@ -79,8 +81,9 @@ export const projectData = [
     ],
     team: ["Andrew Miyaguchi"],
     date: "February/2018",
-    image: {
-      name: "",
+    media: {
+      type: "image",
+      name: "Smart Electronic Egg Pieces",
       src: smartEgg
     }
   },
@@ -93,8 +96,9 @@ export const projectData = [
     tools: ["D3 v4", "Twitter Bootstrap v3", "Hosted using Github Pages"],
     team: [],
     date: "January/2018",
-    image: {
-      name: "",
+    media: {
+      type: "image",
+      name: "Algorithm Website",
       src: algorithmAnimation
     }
   },
@@ -112,8 +116,9 @@ export const projectData = [
     ],
     team: [],
     date: "January/2017",
-    image: {
-      name: "",
+    media: {
+      type: "image",
+      name: "Cross Country Adventure Homepage",
       src: xCountryAdventure
     }
   },
@@ -134,8 +139,9 @@ export const projectData = [
     ],
     team: [],
     date: "June/2016",
-    image: {
-      name: "",
+    media: {
+      type: "image",
+      name: "ExQuizit Homepage",
       src: exquizit
     }
   },
@@ -155,8 +161,9 @@ export const projectData = [
     ],
     team: [],
     date: "January/2015",
-    image: {
-      name: "",
+    media: {
+      type: "image",
+      name: "Self Help Homepage",
       src: selfHelp
     }
   }

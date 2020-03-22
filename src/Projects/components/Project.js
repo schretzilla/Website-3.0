@@ -29,12 +29,12 @@ const Project = props => {
   });
 
   const imageColumn =
-    projectData.image.type !== "video" ? (
+    projectData.media.type !== "video" ? (
       <Col sm={{ order: 1, span: 12 }} md={{ order: 0, span: 5 }}>
         <img
           className="img-fluid"
-          src={projectData.image.src}
-          alt={projectData.image.name}
+          src={projectData.media.src}
+          alt={projectData.media.name}
         />
       </Col>
     ) : (
@@ -47,10 +47,10 @@ const Project = props => {
           title={`${projectData.name}-media`}
           width="475"
           height="641"
-          src={projectData.image.src}
-          frameborder="0"
+          src={projectData.media.src}
+          frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </Col>
     );
