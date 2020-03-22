@@ -60,8 +60,9 @@ export const projectData = [
     ],
     date: "October/2018",
     image: {
+      type: "video",
       name: "",
-      src: "selfHelp"
+      src: "https://www.youtube.com/embed/j-f__uynkvQ"
     }
   },
   {

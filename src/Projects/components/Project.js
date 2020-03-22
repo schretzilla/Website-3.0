@@ -28,16 +28,32 @@ const Project = props => {
     );
   });
 
-  const imageColumn = (
-    <Col sm={{ order: 1, span: 12 }} md={{ order: 0, span: 5 }}>
-      <img
-        className="img-fluid"
-        src={projectData.image.src}
-        alt={projectData.image.name}
-      />
-    </Col>
-  );
-
+  const imageColumn =
+    projectData.image.type !== "video" ? (
+      <Col sm={{ order: 1, span: 12 }} md={{ order: 0, span: 5 }}>
+        <img
+          className="img-fluid"
+          src={projectData.image.src}
+          alt={projectData.image.name}
+        />
+      </Col>
+    ) : (
+      <Col
+        className="youtube-container"
+        sm={{ order: 1, span: 12 }}
+        md={{ order: 0, span: 5 }}
+      >
+        <iframe
+          title={`${projectData.name}-media`}
+          width="475"
+          height="641"
+          src={projectData.image.src}
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </Col>
+    );
   const descriptionColumn = (
     <Col sm={12} md={7}>
       <h2 className="featurette-heading">
