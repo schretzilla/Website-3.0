@@ -1,18 +1,23 @@
-import React from 'react';
+import React from "react";
 
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-import profilePhoto from '../Images/Profile-Photo.png';
-import githubIcon from '../Images/github-icon.png';
-import linkedInIcon from '../Images/linkedin-logo.png';
+import profilePhoto from "../Images/Profile-Photo.png";
+import githubIcon from "../Images/github-icon.png";
+import linkedInIcon from "../Images/linkedin-logo.png";
+import resumeIcon from "../Images/resume-icon.png";
 
-import '../style/custom.css';
+import "../style/custom.css";
 
 const Intro = props => {
   const style = {
     introContainer: {
-      marginTop: '40px'
+      marginTop: "40px"
+    },
+    icon: {
+      height: "37px",
+      margin: "5px"
     }
   };
   return (
@@ -41,9 +46,6 @@ const Intro = props => {
             <li>
               <strong>Location:</strong> Los Angeles, CA
             </li>
-            <li>
-              <strong>Resume:</strong> google drive live resume folder
-            </li>
           </ul>
 
           <a
@@ -51,7 +53,7 @@ const Intro = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={githubIcon} alt="https://github.com/schretzilla" />
+            <img style={style.icon} src={githubIcon} alt="github logo" />
           </a>
 
           <a
@@ -59,7 +61,14 @@ const Intro = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={linkedInIcon} alt="linked in logo" />
+            <img style={style.icon} src={linkedInIcon} alt="Linked In logo" />
+          </a>
+          <a
+            href="https://drive.google.com/open?id=1UzKlP_4Am8XAe6fSScxsFzNZIMKlkeUE"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img style={style.icon} src={resumeIcon} alt="Resume" />
           </a>
         </Col>
       </Row>
