@@ -1,74 +1,106 @@
-import React from 'react';
+import React from "react";
 
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-import '../../style/custom.css';
+import "../../style/custom.css";
 
 const Project = props => {
-  const projectName = 'Project Name';
-  const catchPhrase = 'some catch phrase';
-  const blurb =
-    'This is a blurb about how awesome this project is and what it does';
-  const extraDetails = ['extra info 1', 'extra info 2', 'extra info 3'];
+  const { projectData, indexNumber } = props;
 
-  const extraDetailsList = extraDetails.map((detail, i) => {
-    return <li key={`${projectName}-detail-${i}`}>{detail}</li>;
+  const extraDetailsList = projectData.extraDetails.map((detail, i) => {
+    return <li key={`${projectData.name}-detail-${i}`}>{detail}</li>;
   });
 
-  const tools = ['tool1', 'tool2', 'tool3'];
-  const toolsList = tools.map((tool, i) => {
+  const toolsList = projectData.tools.map((tool, i) => {
     return (
-      <li className="list-inline-item" key={`${projectName}-tool-${i}`}>
+      <li className="list-inline-item" key={`${projectData.name}-tool-${i}`}>
         {tool}
       </li>
     );
   });
 
-  const teamMembers = ['joe 1', 'joe 2', 'joe 3'];
-  const teamMemberList = teamMembers.map((member, i) => {
+  const teamMemberList = projectData.team.map((member, i) => {
     return (
-      <li className="list-inline-item" key={`${projectName}-member-${i}`}>
+      <li className="list-inline-item" key={`${projectData.name}-member-${i}`}>
         {member}
       </li>
     );
   });
 
-  const date = 'month/year';
+  const imageColumn =
+    projectData.media.type !== "video" ? (
+      <Col sm={{ order: 1, span: 12 }} md={{ order: 0, span: 5 }}>
+        <img
+          className="img-fluid"
+          src={projectData.media.src}
+          alt={projectData.media.name}
+        />
+      </Col>
+    ) : (
+      <Col
+        className="youtube-container"
+        sm={{ order: 1, span: 12 }}
+        md={{ order: 0, span: 5 }}
+      >
+        <iframe
+          title={`${projectData.name}-media`}
+          width="475"
+          height="641"
+          src={projectData.media.src}
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </Col>
+    );
+  const descriptionColumn = (
+    <Col sm={12} md={7}>
+      <h2 className="featurette-heading">
+        {projectData.name}&nbsp;
+        <small className="text-muted">{projectData.catchPhrase}</small>
+      </h2>
+      <p className="lead">{projectData.blurb}</p>
+
+      <ol>{extraDetailsList}</ol>
+
+      <ul className="list-inline">
+        <li className="list-inline-item">
+          <strong>Tools:</strong>
+        </li>
+        {toolsList}
+      </ul>
+
+      <ul className="list-inline">
+        <li className="list-inline-item">
+          <strong>Team:</strong>
+        </li>
+        {teamMemberList}
+      </ul>
+
+      <h5 className="text-left">
+        <small className="text-muted">{projectData.date}</small>
+      </h5>
+    </Col>
+  );
+
+  let projectContent;
+  if (indexNumber % 2 === 0) {
+    projectContent = (
+      <>
+        {imageColumn} {descriptionColumn}
+      </>
+    );
+  } else {
+    projectContent = (
+      <>
+        {descriptionColumn} {imageColumn}
+      </>
+    );
+  }
   return (
     <>
-      <Row>
-        <Col sm={12} md={5}>
-          Image goes here
-        </Col>
-        <Col sm={12} md={7}>
-          <h2 className="featurette-heading">
-            {projectName}&nbsp;
-            <small className="text-muted">{catchPhrase}</small>
-          </h2>
-          <p className="lead">{blurb}</p>
-
-          <ol>{extraDetailsList}</ol>
-
-          <ul className="list-inline">
-            <li className="list-inline-item">
-              <strong>Tools:</strong>
-            </li>
-            {toolsList}
-          </ul>
-
-          <ul className="list-inline">
-            <li className="list-inline-item">
-              <strong>Team:</strong>
-            </li>
-            {teamMemberList}
-          </ul>
-
-          <h5 className="text-left">
-            <small className="text-muted">{date}</small>
-          </h5>
-        </Col>
-      </Row>
+      <Row>{projectContent}</Row>
 
       <hr className="featurette-divider" />
     </>
