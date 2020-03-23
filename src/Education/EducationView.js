@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-import '../style/custom.css';
+import "../style/custom.css";
 
-import pittLogo from '../Images/pitt-logo.png';
-import greenCheck from '../Images/green-check.png';
-import graduationPhoto from '../Images/graduation.jpg';
+import pittLogo from "../Images/pitt-logo.png";
+import greenCheck from "../Images/green-check.png";
+import graduationPhoto from "../Images/graduation.jpg";
 
 const Education = props => {
   return (
@@ -18,10 +18,17 @@ const Education = props => {
 
       <Row>
         <Col md={6} sm={12}>
-          <img src={graduationPhoto} />
+          <img
+            src={graduationPhoto}
+            alt="standing with my step dad at graduation"
+          />
         </Col>
         <Col md={6} sm={12}>
-          <img src={pittLogo} className="rounded" />
+          <img
+            src={pittLogo}
+            className="rounded"
+            alt="University of Pittsburgh logo"
+          />
           <ul className="list-unstyled">
             <li>Graduated May 2014</li>
             <li>GPA: 3.07</li>
@@ -29,15 +36,15 @@ const Education = props => {
 
           <ul className="list-unstyled">
             <li>
-              <img src={greenCheck} />
+              <img src={greenCheck} alt="green check mark" />
               <em>Bachelor of Science in Applied Mathematics</em>
             </li>
             <li>
-              <img src={greenCheck} />
+              <img src={greenCheck} alt="green check mark" />
               <em>Bachelor of Arts in Anthropology</em>
             </li>
             <li>
-              <img src={greenCheck} />
+              <img src={greenCheck} alt="green check mark" />
               <em>Minor in Computer Science</em>
             </li>
           </ul>
