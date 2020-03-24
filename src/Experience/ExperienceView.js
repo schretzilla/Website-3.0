@@ -19,9 +19,12 @@ const ExperienceView = props => {
   });
   return (
     <>
-      <Row className="justify-content-center">
-        <h2 className="subject-header">Experience</h2>
-      </Row>
+      <Fade bottom>
+        <Row className="justify-content-center">
+          <h2 className="subject-header">Experience</h2>
+        </Row>
+      </Fade>
+
       {detailSections}
     </>
   );

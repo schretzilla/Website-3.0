@@ -15,7 +15,8 @@ import Jump from "react-reveal/Jump";
 const Intro = props => {
   const style = {
     introContainer: {
-      marginTop: "40px"
+      marginTop: "40px",
+      marginBottom: "50px"
     },
     icon: {
       height: "37px",
