@@ -135,7 +135,7 @@
 
 .parallax {
   /* The image used */
-  background-image: url('../Images/delicate-arch.jpg');
+  background-image: url("../Images/delicate-arch.jpg");
 
   /* Set a specific height */
   min-height: 1000px;
@@ -187,12 +187,12 @@ body {
 }
 
 .subject-header {
-  font-weight: 'normal';
-  color: '#000000';
-  word-spacing: '2pt';
-  font-size: '70px';
-  font-family: 'georgia';
-  text-align: 'center';
+  font-weight: "normal";
+  color: "#000000";
+  word-spacing: "2pt";
+  font-size: "70px";
+  font-family: "georgia";
+  text-align: "center";
 }
 
 .footer {

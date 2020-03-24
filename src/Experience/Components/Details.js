@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-import '../../style/custom.css';
+import "../../style/custom.css";
 
 const Details = props => {
   const { experienceData } = props;
@@ -39,21 +39,22 @@ const Details = props => {
           <h2 className="job-title">{title}</h2>
         </Col>
         <Col className="subject-sub-date" sm={4}>
-          <h2>{dates}</h2>
+          <h2>
+            <small>{dates}</small>
+          </h2>
         </Col>
       </Row>
 
       <Row>
         <Col sm={12}>
           <p className="job-description">
-            {description} {linkToExtraData}{' '}
+            {description} {linkToExtraData}{" "}
           </p>
           <p className="job-team-name">{teams}</p>
         </Col>
 
         <ul>{keyPointElement} </ul>
       </Row>
-      <hr className="featurette-divider" />
     </>
   );
 };
