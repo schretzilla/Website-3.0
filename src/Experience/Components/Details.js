@@ -14,9 +14,18 @@ const Details = props => {
     description,
     teams,
     keyPoints,
-    link
+    link,
+    logo
   } = experienceData;
 
+  const style = {
+    logo: {
+      width: "327px"
+    },
+    container: {
+      paddingBottom: "50px"
+    }
+  };
   const keyPointElement = keyPoints.map((keyPoint, i) => {
     return (
       <li key={`key-point-${company}-${i}`} className="job-key-points">
@@ -32,16 +41,14 @@ const Details = props => {
   );
 
   return (
-    <>
+    <div style={style.container}>
       <Row>
-        <Col sm={8}>
-          <h2 className="company-name">{company}</h2>
+        <Col md={6}>
+          <img src={logo} style={style.logo} alt={`${company}-logo`} />
           <h2 className="job-title">{title}</h2>
         </Col>
-        <Col className="subject-sub-date" sm={4}>
-          <h2>
-            <small>{dates}</small>
-          </h2>
+        <Col className="subject-sub-date" md={6}>
+          <p className="float-md-right">{dates}</p>
         </Col>
       </Row>
 
@@ -55,7 +62,7 @@ const Details = props => {
 
         <ul>{keyPointElement} </ul>
       </Row>
-    </>
+    </div>
   );
 };
 
