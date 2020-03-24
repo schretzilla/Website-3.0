@@ -21,6 +21,9 @@ const Details = props => {
   const style = {
     logo: {
       width: "327px"
+    },
+    container: {
+      paddingBottom: "50px"
     }
   };
   const keyPointElement = keyPoints.map((keyPoint, i) => {
@@ -38,7 +41,7 @@ const Details = props => {
   );
 
   return (
-    <>
+    <div style={style.container}>
       <Row>
         <Col md={6}>
           <img src={logo} style={style.logo} alt={`${company}-logo`} />
@@ -59,7 +62,7 @@ const Details = props => {
 
         <ul>{keyPointElement} </ul>
       </Row>
-    </>
+    </div>
   );
 };
 
