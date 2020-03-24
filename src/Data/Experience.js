@@ -1,5 +1,6 @@
 import NorthropLogo from "../Images/northrop-logo.png";
-
+import UpmcLogo from "../Images/upmc_logo.jpg";
+import HikingLogo from "../Images/gone-hiking-logo.png";
 export const experienceData = [
   {
     company: "Northrop Grumman",
@@ -23,13 +24,13 @@ export const experienceData = [
   },
   {
     company: "Cross Country Traveler",
+    logo: HikingLogo,
     title: "Solo Adventurer",
     dates: "August/2016-January/2017",
     teams: "",
     description: "A solo 6 month adventure across America summarized using D3",
     keyPoints: [
       "Volunteered with Samaritain's Purse helping Louisiana flood victims",
-      "Exposed common backend services through a TCP/IP client to help secure additional team funding",
       "Summited 24 of Colorado’s 14,000+ foot mountains",
       "Confirmed strategy and required actions for my five-year plan"
     ],
@@ -40,6 +41,7 @@ export const experienceData = [
   },
   {
     company: "University of Pitsburgh Medical Center",
+    logo: UpmcLogo,
     title: "ISD Rotational Engineer",
     dates: "July/2014-July/2016",
     teams: "App Development, UNIX Services, Enterprise Architecture",
@@ -58,6 +60,7 @@ export const experienceData = [
   },
   {
     company: "University of Pitsburgh Medical Center",
+    logo: UpmcLogo,
     title: "Software Engineer Intern",
     dates: "June/2013-August/2013",
     teams: "E Record Custom App Development",
