@@ -5,12 +5,12 @@ import Col from "react-bootstrap/Col";
 
 import cSharpIcon from "../Images/csharp.png";
 import bootstrapIcon from "../Images/bootstrap.png";
-import djangoIcon from "../Images/django.png";
 import javaScriptIcon from "../Images/javascript.png";
-import dotNetIcon from "../Images/microsoft-net.png";
 import pythonIcon from "../Images/python.png";
 import reactIcon from "../Images/react-logo.svg";
 import javaIcon from "../Images/java-logo.png";
+
+import Fade from "react-reveal/Fade";
 
 const TechStack = props => {
   const style = {
@@ -19,7 +19,7 @@ const TechStack = props => {
     }
   };
   return (
-    <>
+    <Fade bottom>
       <Row className="justify-content-center">
         <h2 className="subject-header">My current tech stack</h2>
       </Row>
@@ -78,7 +78,7 @@ const TechStack = props => {
       </Row>
 
       <hr className="featurette-divider" />
-    </>
+    </Fade>
   );
 };
 

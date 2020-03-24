@@ -6,14 +6,14 @@ import Project from "./components/Project";
 
 import { projectData } from "../Data/Projects";
 
+import Fade from "react-reveal/Fade";
+
 const ProjectView = props => {
   const projectSections = projectData.map((projectObj, i) => {
     return (
-      <Project
-        key={projectObj.name + i}
-        projectData={projectObj}
-        indexNumber={i}
-      />
+      <Fade bottom key={projectObj.name + i}>
+        <Project projectData={projectObj} indexNumber={i} />
+      </Fade>
     );
   });
 
