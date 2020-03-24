@@ -10,6 +10,8 @@ import resumeIcon from "../Images/resume-icon.png";
 
 import "../style/custom.css";
 
+import Jump from "react-reveal/Jump";
+
 const Intro = props => {
   const style = {
     introContainer: {
@@ -21,33 +23,34 @@ const Intro = props => {
     }
   };
   return (
-    <>
-      <Row style={style.introContainer}>
-        <Col sm={12} md={6}>
-          <img
-            className="img-fluid"
-            src={profilePhoto}
-            alt="scott-schretzenmaier-profile"
-          />
-        </Col>
-        <Col sm={12} md={6}>
+    <Row style={style.introContainer}>
+      <Col sm={12} md={6}>
+        <img
+          className="img-fluid"
+          src={profilePhoto}
+          alt="scott-schretzenmaier-profile"
+        />
+      </Col>
+      <Col sm={12} md={6}>
+        <Jump delay={1000}>
           <h1 className="hello-header">Hi, I'm Scott</h1>
-          <p className="about-me">
-            I'm a motivated guy who loves building awesome defense software. I
-            prefer backend development but I dabble with a bit of everything.
-            I'm also a big fan of agile processes, both in development and in
-            life.
-          </p>
+        </Jump>
+        <p className="about-me">
+          I'm a motivated guy who loves building awesome defense software. I
+          prefer backend development but I dabble with a bit of everything. I'm
+          also a big fan of agile processes, both in development and in life.
+        </p>
 
-          <ul className="list-inline">
-            <li>
-              <strong>Email:</strong> schretzy929@gmail.com
-            </li>
-            <li>
-              <strong>Location:</strong> Los Angeles, CA
-            </li>
-          </ul>
+        <ul className="list-inline">
+          <li>
+            <strong>Email:</strong> schretzy929@gmail.com
+          </li>
+          <li>
+            <strong>Location:</strong> Los Angeles, CA
+          </li>
+        </ul>
 
+        <div>
           <a
             href="https://github.com/schretzilla"
             target="_blank"
@@ -70,9 +73,9 @@ const Intro = props => {
           >
             <img style={style.icon} src={resumeIcon} alt="Resume" />
           </a>
-        </Col>
-      </Row>
-    </>
+        </div>
+      </Col>
+    </Row>
   );
 };
 
