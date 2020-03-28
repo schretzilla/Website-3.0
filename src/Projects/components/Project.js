@@ -71,12 +71,14 @@ const Project = props => {
         {toolsList}
       </ul>
 
-      <ul className="list-inline">
-        <li className="list-inline-item">
-          <strong>Team:</strong>
-        </li>
-        {teamMemberList}
-      </ul>
+      {teamMemberList.length > 0 && (
+        <ul className="list-inline">
+          <li className="list-inline-item">
+            <strong>Team:</strong>
+          </li>
+          {teamMemberList}
+        </ul>
+      )}
 
       <h5 className="text-left">
         <small className="text-muted">{projectData.date}</small>
