@@ -3,12 +3,12 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import cSharpIcon from "../Images/csharp.png";
-import bootstrapIcon from "../Images/bootstrap.png";
-import javaScriptIcon from "../Images/javascript.png";
-import pythonIcon from "../Images/python.png";
-import reactIcon from "../Images/react-logo.svg";
-import javaIcon from "../Images/java-logo.png";
+import cSharpIcon from "../Images/tech-stack/csharp.png";
+import bootstrapIcon from "../Images/tech-stack/bootstrap.png";
+import javaScriptIcon from "../Images/tech-stack/javascript.png";
+import pythonIcon from "../Images/tech-stack/python.png";
+import reactIcon from "../Images/tech-stack/react-logo.svg";
+import javaIcon from "../Images/tech-stack/java-logo.png";
 
 import Fade from "react-reveal/Fade";
 
