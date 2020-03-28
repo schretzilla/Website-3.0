@@ -12,69 +12,53 @@ import javaIcon from "../Images/java-logo.png";
 
 import Fade from "react-reveal/Fade";
 
+import Flippy, { FrontSide, BackSide } from "react-flippy";
+
+const FlippyStyle = {
+  width: "200px",
+  height: "300px",
+  textAlign: "center",
+  color: "#FFF",
+  fontFamily: "sans-serif",
+  fontSize: "30px",
+  justifyContent: "center"
+};
+
+const flipCard = (img, description) => {
+  return (
+    <Flippy flipOnHover={true} flipDirection="vertical">
+      <FrontSide>
+        <img
+          src={img}
+          title={description}
+          alt={description}
+          className="rounded mx-auto d-block"
+          style={{ maxWidth: "100%", maxHeight: "100%" }}
+        />
+      </FrontSide>
+      <BackSide>
+        <p>{description}</p>
+      </BackSide>
+    </Flippy>
+  );
+};
+
 const TechStack = props => {
-  const style = {
-    icon: {
-      maxHeight: "135px"
-    }
-  };
   return (
     <Fade bottom>
       <Row className="justify-content-center">
-        <h2 className="subject-header">My current tech stack</h2>
+        <h2 className="subject-header">Tech Stack</h2>
       </Row>
 
       <Row className="justify-content-center">
-        <Col xs={4}>
-          <img src={cSharpIcon} alt="c#" className="rounded mx-auto d-block" />
-        </Col>
-        <Col xs={4}>
-          <img
-            title="Bootstrap CSS"
-            src={bootstrapIcon}
-            style={style.icon}
-            alt="bootstrap css framework"
-            className="rounded mx-auto d-block"
-          />
-        </Col>
-        <Col xs={4}>
-          <img
-            title="React Framework"
-            src={reactIcon}
-            style={style.icon}
-            alt="django"
-            className="rounded mx-auto d-block"
-          />
-        </Col>
+        <Col xs={4}>{flipCard(cSharpIcon, "C#")}</Col>
+        <Col xs={4}>{flipCard(bootstrapIcon, "Bootstrap CSS Framework")}</Col>
+        <Col xs={4}>{flipCard(reactIcon, "React Framework")}</Col>
       </Row>
       <Row>
-        <Col xs={4}>
-          <img
-            title="JavaScript"
-            src={javaScriptIcon}
-            style={style.icon}
-            alt="javascript"
-            className="rounded mx-auto d-block"
-          />
-        </Col>
-        <Col xs={4}>
-          <img
-            title="Java"
-            src={javaIcon}
-            style={style.icon}
-            alt="Java"
-            className="rounded mx-auto d-block"
-          />
-        </Col>
-        <Col xs={4}>
-          <img
-            title="python"
-            src={pythonIcon}
-            style={style.icon}
-            alt="python"
-            className="rounded mx-auto d-block"
-          />
-        </Col>
+        <Col xs={4}>{flipCard(javaScriptIcon, "JavaScript")}</Col>
+        <Col xs={4}>{flipCard(javaIcon, "Java")}</Col>
+        <Col xs={4}>{flipCard(pythonIcon, "Python")}</Col>
       </Row>
 
       <hr className="featurette-divider" />
