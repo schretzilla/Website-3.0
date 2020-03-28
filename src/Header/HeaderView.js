@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import Container from 'react-bootstrap/Container';
+import Container from "react-bootstrap/Container";
 
-import '../style/custom.css';
+import "../style/custom.css";
 
 const Header = () => {
   return (
