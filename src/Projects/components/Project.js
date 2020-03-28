@@ -30,7 +30,7 @@ const Project = props => {
 
   const imageColumn =
     projectData.media.type !== "video" ? (
-      <Col sm={{ order: 1, span: 12 }} md={{ order: 0, span: 5 }}>
+      <Col xs={{ order: 1, span: 12 }} md={{ order: 0, span: 5 }}>
         <img
           className="img-fluid"
           src={projectData.media.src}
@@ -40,7 +40,7 @@ const Project = props => {
     ) : (
       <Col
         className="youtube-container"
-        sm={{ order: 1, span: 12 }}
+        xs={{ order: 1, span: 12 }}
         md={{ order: 0, span: 5 }}
       >
         <iframe
@@ -71,12 +71,14 @@ const Project = props => {
         {toolsList}
       </ul>
 
-      <ul className="list-inline">
-        <li className="list-inline-item">
-          <strong>Team:</strong>
-        </li>
-        {teamMemberList}
-      </ul>
+      {teamMemberList.length > 0 && (
+        <ul className="list-inline">
+          <li className="list-inline-item">
+            <strong>Team:</strong>
+          </li>
+          {teamMemberList}
+        </ul>
+      )}
 
       <h5 className="text-left">
         <small className="text-muted">{projectData.date}</small>
