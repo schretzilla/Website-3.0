@@ -24,22 +24,30 @@ const FlippyStyle = {
   justifyContent: "center"
 };
 
+const style = {
+  flipCol: {
+    marginBottom: "30px"
+  }
+};
+
 const flipCard = (img, description) => {
   return (
-    <Flippy flipOnHover={true} flipDirection="vertical">
-      <FrontSide>
-        <img
-          src={img}
-          title={description}
-          alt={description}
-          className="rounded mx-auto d-block"
-          style={{ maxWidth: "100%", maxHeight: "100%" }}
-        />
-      </FrontSide>
-      <BackSide>
-        <p>{description}</p>
-      </BackSide>
-    </Flippy>
+    <Col xs={6} md={4} lg={2} style={style.flipCol}>
+      <Flippy flipOnHover={true} flipDirection="vertical">
+        <FrontSide>
+          <img
+            src={img}
+            title={description}
+            alt={description}
+            className="rounded mx-auto d-block"
+            style={{ maxWidth: "100%", maxHeight: "100%" }}
+          />
+        </FrontSide>
+        <BackSide>
+          <p>{description}</p>
+        </BackSide>
+      </Flippy>
+    </Col>
   );
 };
 
@@ -51,14 +59,12 @@ const TechStack = props => {
       </Row>
 
       <Row className="justify-content-center">
-        <Col xs={4}>{flipCard(cSharpIcon, "C#")}</Col>
-        <Col xs={4}>{flipCard(bootstrapIcon, "Bootstrap CSS Framework")}</Col>
-        <Col xs={4}>{flipCard(reactIcon, "React Framework")}</Col>
-      </Row>
-      <Row>
-        <Col xs={4}>{flipCard(javaScriptIcon, "JavaScript")}</Col>
-        <Col xs={4}>{flipCard(javaIcon, "Java")}</Col>
-        <Col xs={4}>{flipCard(pythonIcon, "Python")}</Col>
+        {flipCard(cSharpIcon, "C#")}
+        {flipCard(bootstrapIcon, "Bootstrap CSS Framework")}
+        {flipCard(reactIcon, "React Framework")}
+        {flipCard(javaScriptIcon, "JavaScript")}
+        {flipCard(javaIcon, "Java")}
+        {flipCard(pythonIcon, "Python")}
       </Row>
 
       <hr className="featurette-divider" />
