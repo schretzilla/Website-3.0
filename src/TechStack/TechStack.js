@@ -17,6 +17,9 @@ import Flippy, { FrontSide, BackSide } from "react-flippy";
 const style = {
   flipCol: {
     marginBottom: "30px"
+  },
+  techDescription: {
+    marginTop: "10%"
   }
 };
 
@@ -34,7 +37,9 @@ const flipCard = (img, description) => {
           />
         </FrontSide>
         <BackSide>
-          <p>{description}</p>
+          <p className="lead text-center" style={style.techDescription}>
+            {description}
+          </p>
         </BackSide>
       </Flippy>
     </Col>
