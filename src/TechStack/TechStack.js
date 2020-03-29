@@ -20,6 +20,10 @@ const style = {
   },
   techDescription: {
     marginTop: "10%"
+  },
+  techIcon: {
+    maxWidth: "100%",
+    maxHeight: "100%"
   }
 };
 
@@ -33,7 +37,7 @@ const flipCard = (img, description) => {
             title={description}
             alt={description}
             className="rounded mx-auto d-block"
-            style={{ maxWidth: "100%", maxHeight: "100%" }}
+            style={style.techIcon}
           />
         </FrontSide>
         <BackSide>
