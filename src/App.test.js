@@ -5,6 +5,7 @@ import Header from "./Components/Header/HeaderView";
 import Intro from "./Components/Introduction/Intro";
 import ExperienceView from "./Components/Experience/ExperienceView";
 import Details from "./Components/Experience/Components/Details";
+import ProjectView from "./Components/Projects/ProjectsView";
 import Project from "./Components/Projects/components/Project";
 import TechStack from "./Components/TechStack/TechStack";
 import Education from "./Components/Education/EducationView";
@@ -83,17 +84,24 @@ describe("the Projects component", () => {
     }
   };
   describe("snapshot tests", () => {
-    it("image on right", () => {
-      const tree = renderer
-        .create(<Project projectData={projectData} indexNumber="1" />)
-        .toJSON();
+    it("full project view", () => {
+      const tree = renderer.create(<ProjectView />).toJSON();
       expect(tree).toMatchSnapshot();
     });
-    it("image on left", () => {
-      const tree = renderer
-        .create(<Project projectData={projectData} indexNumber="2" />)
-        .toJSON();
-      expect(tree).toMatchSnapshot();
+
+    describe("project details", () => {
+      it("odd indexed image on right", () => {
+        const tree = renderer
+          .create(<Project projectData={projectData} indexNumber="1" />)
+          .toJSON();
+        expect(tree).toMatchSnapshot();
+      });
+      it("even indexed image on left", () => {
+        const tree = renderer
+          .create(<Project projectData={projectData} indexNumber="2" />)
+          .toJSON();
+        expect(tree).toMatchSnapshot();
+      });
     });
   });
 });

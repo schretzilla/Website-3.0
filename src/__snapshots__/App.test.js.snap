@@ -1315,7 +1315,836 @@ exports[`the Intro component snapshot test 1`] = `
 </div>
 `;
 
-exports[`the Projects component snapshot tests image on left 1`] = `
+exports[`the Projects component snapshot tests full project view 1`] = `
+Array [
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <h2
+        className="subject-header"
+      >
+        Projects
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="trail camera 3-D model"
+          className="img-fluid"
+          src="trail-camera-placement.jpeg"
+        />
+      </div>
+       
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Smart Bird Feeder!
+           
+          <small
+            className="text-muted"
+          >
+            Building species saving technology
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          I had the opportunity to lead a team of engineers as we worked with the San Diego Zoo to develop a Smart Bird Feeder that monitors the health of the Hawaiian Crows. At the conclusion of a month the device we created included the following:
+        </p>
+        <ol>
+          <li>
+            A bird feeder that includes a variety of sensors to track the diet of each bird
+          </li>
+          <li>
+            A repurposed android cell phone that records video of the crows as they feed
+          </li>
+          <li>
+            Remote login capabilities to watch from the bird feeder at any time
+          </li>
+          <li>
+            A user interface for tracking each bird’s status
+          </li>
+        </ol>
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Android SDK
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Java
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            A 3D Enclosure
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Teensy 3.2
+          </li>
+        </ul>
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Team:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Avery Bodenstein
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Andrew Miyaguchi
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            John Madden
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            July/2019
+          </small>
+        </h5>
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Super Pi Boy
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          For my brothers birthday I decided to follow some tutorials online and build him an emulation station. Using my 3-D printer and some soldering skills I was able to encase a retro pi arcade into a small handheld device for him to play on the go.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Raspberry Pi
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            RetroPie Image
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            A 3D printed enclosure
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Solder & Soldering Iron
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            March/2019
+          </small>
+        </h5>
+      </div>
+       
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="Pi Boy - Game Boy"
+          className="img-fluid"
+          src="game-boy.png"
+        />
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="youtube-container col-md-5 col-12 order-md-0 order-1"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          height="641"
+          src="https://www.youtube.com/embed/j-f__uynkvQ"
+          title="Von Karman Challenge-media"
+          width="475"
+        />
+      </div>
+       
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Von Karman Challenge
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          I led a team of four awesome engineers during Northrop Grumman's Von Karman challenge. Our objective was to create a rover that could navigate through the field, discover hidden QR codes and complete the various tasks encoded in them. Using ROS to handle the communication between the different components and OpenCV to interpret different QR codes, my team was able to successfully build a rover that we named MARV.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            ROS Kinetic
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Raspberry Pi
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            OpenCV
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            C++
+          </li>
+        </ul>
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Team:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Avery Bodenstein
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Andrew Miyaguchi
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Doug Toperzer
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Michael Uy
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            October/2018
+          </small>
+        </h5>
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Project Smart Egg!
+           
+          <small
+            className="text-muted"
+          >
+            Taking the egg drop competition to new levels
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          In preparation for the egg drop competition the Fablab held a, 'Hatchathon' with the objective of creating the smartest egg on the planet.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            ESP32
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Highcharts JS
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            A 3D printed egg
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Bluma's CSS Framework
+          </li>
+        </ul>
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Team:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Andrew Miyaguchi
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            February/2018
+          </small>
+        </h5>
+      </div>
+       
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="Smart Electronic Egg Pieces"
+          className="img-fluid"
+          src="smart-egg.png"
+        />
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="Algorithm Website"
+          className="img-fluid"
+          src="algorithm-animation.png"
+        />
+      </div>
+       
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Algorithm Animation
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          My flight back to LA from Philly took forever, so I used it as an opportunity to build animations for some common sorting algorithms using D3. Here I randomly generate weighted lists of circles then, with the click of a button, I animate each step of the algorithm.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            D3 v4
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Twitter Bootstrap v3
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Hosted using Github Pages
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            January/2018
+          </small>
+        </h5>
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Adventure America
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          A lot of people have asked, 'when you left your job to travel the country, what did you do?' I used D3 to animate my cross country adventure.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            D3 v4
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Twitter Bootstrap v3
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            AngularJS
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Hosted using Github Pages
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            January/2017
+          </small>
+        </h5>
+      </div>
+       
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="Cross Country Adventure Homepage"
+          className="img-fluid"
+          src="x-country-adventure.png"
+        />
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="ExQuizit Homepage"
+          className="img-fluid"
+          src="exquizit.png"
+        />
+      </div>
+       
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          ExQuizit
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          ExQuizit is a Python/Django + Angular web app that allows users to login, create, take and share quizzes with other users.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Django 1.9
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Python 2.7
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            AngularJS 1
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Twitter Bootstrap v3
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Django Rest Framework v3
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            PostgreSQL 9.2
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Hosted using Heroku
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            June/2016
+          </small>
+        </h5>
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Service Base V
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          SBV is a .Net web app for departmental knowledge management and problem tracking. The backend of ServiceBaseV was then used as the backbone to UPMC's corporate wide Self-Help system.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            C#
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            .Net Web Application
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Microsoft SQL Database
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            JavaScript/jQuery
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Twitter Bootstrap v2
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            ADO .Net Entity Framework
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            January/2015
+          </small>
+        </h5>
+      </div>
+       
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="Self Help Homepage"
+          className="img-fluid"
+          src="self-help.png"
+        />
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+]
+`;
+
+exports[`the Projects component snapshot tests project details even indexed image on left 1`] = `
 Array [
   <div
     className="row"
@@ -1437,7 +2266,7 @@ Array [
 ]
 `;
 
-exports[`the Projects component snapshot tests image on right 1`] = `
+exports[`the Projects component snapshot tests project details odd indexed image on right 1`] = `
 Array [
   <div
     className="row"
