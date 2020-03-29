@@ -3,11 +3,11 @@ import Slider from "react-slick";
 
 import Col from "react-bootstrap/Col";
 
-import ironmanPhoto from "../../../Images/ironman.jpg";
-import wrestlingClub from "../../../Images/wrestling-club.jpg";
-import samaritansPurse from "../../../Images/samaritans-purse-group.jpg";
-import mountains from "../../../Images/mountaineering.jpg";
-import highSchoolWrestling from "../../../Images/high-school-wrestling.jpg";
+import ironmanPhoto from "../../../Images/ExtraActivities/ironman.jpg";
+import wrestlingClub from "../../../Images/ExtraActivities/wrestling-club.jpg";
+import samaritansPurse from "../../../Images/ExtraActivities/samaritans-purse-group.jpg";
+import mountains from "../../../Images/ExtraActivities/mountaineering.jpg";
+import highSchoolWrestling from "../../../Images/ExtraActivities/high-school-wrestling.jpg";
 
 export default class SimpleSlider extends Component {
   render() {

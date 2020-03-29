@@ -14,7 +14,7 @@ import ExperienceView from "./Components/Experience/ExperienceView";
 import ProjectView from "./Components/Projects/ProjectsView";
 import TechStack from "./Components/TechStack/TechStack";
 import EducationView from "./Components/Education/EducationView";
-import ExtraActivities from "./Components/ExtraActivites/ExtraActivites";
+import ExtraActivities from "./Components/ExtraActivities/ExtraActivities";
 
 import "./Style/custom.css";
 

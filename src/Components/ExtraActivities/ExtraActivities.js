@@ -9,7 +9,7 @@ import "../../Style/custom.css";
 
 import Fade from "react-reveal/Fade";
 
-const ExtraActivites = () => {
+const ExtraActivities = () => {
   return (
     <Fade bottom>
       <Row className="justify-content-center">
@@ -27,4 +27,4 @@ const ExtraActivites = () => {
   );
 };
 
-export default ExtraActivites;
+export default ExtraActivities;
