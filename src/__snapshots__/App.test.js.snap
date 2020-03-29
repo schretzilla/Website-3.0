@@ -1,5 +1,92 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`the Experience component snapshot test with link and image logo 1`] = `
+<div
+  style={
+    Object {
+      "paddingBottom": "50px",
+    }
+  }
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <img
+        alt="Cross Country Traveler-logo"
+        src="gone-hiking-logo.png"
+        style={
+          Object {
+            "width": "327px",
+          }
+        }
+      />
+      <h2
+        className="job-title"
+      >
+        Solo Adventurer
+      </h2>
+    </div>
+    <div
+      className="subject-sub-date col-md-6"
+    >
+      <p
+        className="float-md-right"
+      >
+        August/2016-January/2017
+      </p>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12"
+    >
+      <p
+        className="job-description"
+      >
+        A solo 6 month adventure across America summarized using D3
+         
+        <a
+          href="https://schretzilla.github.io/adventure-america/index"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          here
+        </a>
+         
+      </p>
+      <p
+        className="job-team-name"
+      >
+        
+      </p>
+    </div>
+    <ul>
+      <li
+        className="job-key-points"
+      >
+        Volunteered with Samaritain's Purse helping Louisiana flood victims
+      </li>
+      <li
+        className="job-key-points"
+      >
+        Summited 24 of Colorado’s 14,000+ foot mountains
+      </li>
+      <li
+        className="job-key-points"
+      >
+        Confirmed strategy and required actions for my five-year plan
+      </li>
+       
+    </ul>
+  </div>
+</div>
+`;
+
 exports[`the Header component snapshot test 1`] = `
 <div
   className="parallax"
