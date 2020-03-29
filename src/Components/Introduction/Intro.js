@@ -3,12 +3,12 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import profilePhoto from "../Images/Profile-Photo.png";
-import githubIcon from "../Images/github-icon.png";
-import linkedInIcon from "../Images/linkedin-logo.png";
-import resumeIcon from "../Images/resume-icon.png";
+import profilePhoto from "../../Images/Profile-Photo.png";
+import githubIcon from "../../Images/github-icon.png";
+import linkedInIcon from "../../Images/linkedin-logo.png";
+import resumeIcon from "../../Images/resume-icon.png";
 
-import "../style/custom.css";
+import "../../style/custom.css";
 
 import Jump from "react-reveal/Jump";
 

@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 import ActivitySlider from "./components/ActivitySlider";
 
-import "../style/custom.css";
+import "../../style/custom.css";
 
 import Fade from "react-reveal/Fade";
 

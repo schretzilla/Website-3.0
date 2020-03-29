@@ -1,10 +1,10 @@
-import trailCamera from "../Images/trail-camera-placement.jpeg";
-import gameBoy from "../Images/game-boy.png";
-import selfHelp from "../Images/self-help.png";
-import smartEgg from "../Images/smart-egg.png";
-import algorithmAnimation from "../Images/algorithm-animation.png";
-import xCountryAdventure from "../Images/x-country-adventure.png";
-import exquizit from "../Images/exquizit.png";
+import trailCamera from "../../Images/trail-camera-placement.jpeg";
+import gameBoy from "../../Images/game-boy.png";
+import selfHelp from "../../Images/self-help.png";
+import smartEgg from "../../Images/smart-egg.png";
+import algorithmAnimation from "../../Images/algorithm-animation.png";
+import xCountryAdventure from "../../Images/x-country-adventure.png";
+import exquizit from "../../Images/exquizit.png";
 
 export const projectData = [
   {
