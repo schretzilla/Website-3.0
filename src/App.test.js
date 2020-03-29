@@ -7,6 +7,7 @@ import Details from "./Components/Experience/Components/Details";
 import Project from "./Components/Projects/components/Project";
 import TechStack from "./Components/TechStack/TechStack";
 import Education from "./Components/Education/EducationView";
+import ExtraActivities from "./Components/ExtraActivities/ExtraActivities";
 
 import trailCamera from "./Images/Projects/trail-camera-placement.jpeg";
 import HikingLogo from "./Images/Experience/gone-hiking-logo.png";
@@ -98,6 +99,13 @@ describe("the Tech Stack component", () => {
 describe("the Education component", () => {
   it("snapshot test", () => {
     const tree = renderer.create(<Education />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+});
+
+describe("the Extra Activities component", () => {
+  it("snapshot test", () => {
+    const tree = renderer.create(<ExtraActivities />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

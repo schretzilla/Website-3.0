@@ -189,6 +189,590 @@ exports[`the Experience component snapshot test with link and image logo 1`] = `
 </div>
 `;
 
+exports[`the Extra Activities component snapshot test 1`] = `
+Array [
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <h2
+        className="subject-header"
+      >
+        Away from the Screen
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="align-items-center row"
+    >
+      <div
+        className="col-md-1"
+      />
+      <div
+        className="col-md-10"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="slick-slider slick-initialized"
+            dir="ltr"
+          >
+            <button
+              className="slick-arrow slick-prev"
+              data-role="none"
+              onClick={[Function]}
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+              type="button"
+            >
+               
+              Previous
+            </button>
+            <div
+              className="slick-list"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={null}
+              onMouseMove={null}
+              onMouseUp={[Function]}
+              onTouchCancel={null}
+              onTouchEnd={[Function]}
+              onTouchMove={null}
+              onTouchStart={[Function]}
+              style={Object {}}
+            >
+              <div
+                className="slick-track"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                style={
+                  Object {
+                    "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                    "WebkitTransition": "",
+                    "msTransform": "translateX(0px)",
+                    "opacity": 1,
+                    "transform": "translate3d(0px, 0px, 0px)",
+                    "transition": "",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={-1}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="high school wrestling"
+                        src="high-school-wrestling.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I was an All American high school wrestler
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={false}
+                  className="slick-slide slick-active slick-current"
+                  data-index={0}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "outline": "none",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="ironman"
+                        src="ironman.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I'm an ultra athlete, I've complete 7 marathons, won the Chi Town Half Marathon and completed 2 Ironman competitions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide"
+                  data-index={1}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "outline": "none",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="wrestling club"
+                        src="wrestling-club.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        In college I had the opportunity to be president and coach of the University of Pittsburgh Wrestling Club. Here I had the chance to lead a great team and wrestlers and win quite a few championships.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide"
+                  data-index={2}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "outline": "none",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="samaritans purse"
+                        src="samaritans-purse-group.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        Over my trip across the country I signed up to become part of Samaritan Purse's disaster relief team. We volunteered in Baton Rouge to help the recent flood victims.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide"
+                  data-index={3}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "outline": "none",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="mountains"
+                        src="mountaineering.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I love exploring the outdoors, climbing and mountaineering.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide"
+                  data-index={4}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "outline": "none",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="high school wrestling"
+                        src="high-school-wrestling.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I was an All American high school wrestler
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={5}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="ironman"
+                        src="ironman.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I'm an ultra athlete, I've complete 7 marathons, won the Chi Town Half Marathon and completed 2 Ironman competitions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={6}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="wrestling club"
+                        src="wrestling-club.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        In college I had the opportunity to be president and coach of the University of Pittsburgh Wrestling Club. Here I had the chance to lead a great team and wrestlers and win quite a few championships.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={7}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="samaritans purse"
+                        src="samaritans-purse-group.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        Over my trip across the country I signed up to become part of Samaritan Purse's disaster relief team. We volunteered in Baton Rouge to help the recent flood victims.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={8}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="mountains"
+                        src="mountaineering.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I love exploring the outdoors, climbing and mountaineering.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={9}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="high school wrestling"
+                        src="high-school-wrestling.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I was an All American high school wrestler
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              className="slick-arrow slick-next"
+              data-role="none"
+              onClick={[Function]}
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+              type="button"
+            >
+               
+              Next
+            </button>
+            <ul
+              className="slick-dots"
+              onMouseEnter={null}
+              onMouseLeave={null}
+              onMouseOver={null}
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <li
+                className="slick-active"
+              >
+                <button
+                  onClick={[Function]}
+                >
+                  1
+                </button>
+              </li>
+              <li
+                className=""
+              >
+                <button
+                  onClick={[Function]}
+                >
+                  2
+                </button>
+              </li>
+              <li
+                className=""
+              >
+                <button
+                  onClick={[Function]}
+                >
+                  3
+                </button>
+              </li>
+              <li
+                className=""
+              >
+                <button
+                  onClick={[Function]}
+                >
+                  4
+                </button>
+              </li>
+              <li
+                className=""
+              >
+                <button
+                  onClick={[Function]}
+                >
+                  5
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-1"
+      />
+    </div>
+  </div>,
+]
+`;
+
 exports[`the Header component snapshot test 1`] = `
 <div
   className="parallax"
