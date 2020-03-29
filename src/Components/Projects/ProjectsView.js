@@ -8,7 +8,7 @@ import { projectData } from "../../Data/Projects";
 
 import Fade from "react-reveal/Fade";
 
-const ProjectView = props => {
+const ProjectView = () => {
   const projectSections = projectData.map((projectObj, i) => {
     return (
       <Fade bottom key={projectObj.name + i}>

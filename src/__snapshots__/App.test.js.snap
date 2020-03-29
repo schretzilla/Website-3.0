@@ -1,0 +1,2865 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the Education component snapshot test 1`] = `
+Array [
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <h2
+        className="subject-header"
+      >
+        Education
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6 col-sm-12"
+      >
+        <img
+          alt="standing with my step dad at graduation"
+          src="graduation.jpg"
+        />
+      </div>
+      <div
+        className="col-md-6 col-sm-12"
+      >
+        <img
+          alt="University of Pittsburgh logo"
+          className="rounded"
+          src="pitt-logo.png"
+        />
+        <ul
+          className="list-unstyled"
+        >
+          <li>
+            Graduated May 2014
+          </li>
+          <li>
+            GPA: 3.07
+          </li>
+        </ul>
+        <ul
+          className="list-unstyled"
+        >
+          <li>
+            <img
+              alt="green check mark"
+              src="green-check.png"
+            />
+            <em>
+              Bachelor of Science in Applied Mathematics
+            </em>
+          </li>
+          <li>
+            <img
+              alt="green check mark"
+              src="green-check.png"
+            />
+            <em>
+              Bachelor of Arts in Anthropology
+            </em>
+          </li>
+          <li>
+            <img
+              alt="green check mark"
+              src="green-check.png"
+            />
+            <em>
+              Minor in Computer Science
+            </em>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>,
+  <hr
+    className="react-reveal featurette-divider"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  />,
+]
+`;
+
+exports[`the Experience component snapshot test Full Experience View 1`] = `
+Array [
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <h2
+        className="subject-header"
+      >
+        Experience
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingBottom": "50px",
+        }
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <img
+            alt="Northrop Grumman-logo"
+            src="northrop-logo.png"
+            style={
+              Object {
+                "width": "327px",
+              }
+            }
+          />
+          <h2
+            className="job-title"
+          >
+            Software Engineer
+          </h2>
+        </div>
+        <div
+          className="subject-sub-date col-md-6"
+        >
+          <p
+            className="float-md-right"
+          >
+            March/2017-Current
+          </p>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-12"
+        >
+          <p
+            className="job-description"
+          >
+            Led multiple agile engineering teams in designing and developing mission critical software for the Air Force
+             
+            <a
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              
+            </a>
+             
+          </p>
+          <p
+            className="job-team-name"
+          >
+            B-1 Lancer, B-2 Spirit, RAGE & GBSD
+          </p>
+        </div>
+        <ul>
+          <li
+            className="job-key-points"
+          >
+            Created algorithms for tracking GBSD design changes using their modeling software’s restful API
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Developed and implemented the release scheduling and weapon allocation algorithms for the B-1 Lancer’s MPE
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Implemented the foundation for automating integration and unit tests for safer continuous development
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Utilized agile methodologies to plan and prioritize the team’s tasks based on the user’s needs
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Mentored multiple junior engineers by providing both technical and career guidance
+          </li>
+           
+        </ul>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingBottom": "50px",
+        }
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <img
+            alt="Cross Country Traveler-logo"
+            src="gone-hiking-logo.png"
+            style={
+              Object {
+                "width": "327px",
+              }
+            }
+          />
+          <h2
+            className="job-title"
+          >
+            Solo Adventurer
+          </h2>
+        </div>
+        <div
+          className="subject-sub-date col-md-6"
+        >
+          <p
+            className="float-md-right"
+          >
+            August/2016-January/2017
+          </p>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-12"
+        >
+          <p
+            className="job-description"
+          >
+            A solo 6 month adventure across America summarized using D3
+             
+            <a
+              href="https://schretzilla.github.io/adventure-america/index"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              here
+            </a>
+             
+          </p>
+          <p
+            className="job-team-name"
+          >
+            
+          </p>
+        </div>
+        <ul>
+          <li
+            className="job-key-points"
+          >
+            Volunteered with Samaritain's Purse helping Louisiana flood victims
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Summited 24 of Colorado’s 14,000+ foot mountains
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Confirmed strategy and required actions for my five-year plan
+          </li>
+           
+        </ul>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingBottom": "50px",
+        }
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <img
+            alt="University of Pitsburgh Medical Center-logo"
+            src="upmc_logo.jpg"
+            style={
+              Object {
+                "width": "327px",
+              }
+            }
+          />
+          <h2
+            className="job-title"
+          >
+            ISD Rotational Engineer
+          </h2>
+        </div>
+        <div
+          className="subject-sub-date col-md-6"
+        >
+          <p
+            className="float-md-right"
+          >
+            July/2014-July/2016
+          </p>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-12"
+        >
+          <p
+            className="job-description"
+          >
+            A two-year leadership development rotational program designed for selected candidates to develop both technical and operational insight
+             
+            <a
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              
+            </a>
+             
+          </p>
+          <p
+            className="job-team-name"
+          >
+            App Development, UNIX Services, Enterprise Architecture
+          </p>
+        </div>
+        <ul>
+          <li
+            className="job-key-points"
+          >
+            Reduced the help desk’s call queue by developing the company’s Self-Help knowledge management tool
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Enhanced infrastructure analytics by acting as the technical lead for the creation of the IT data warehouse
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Increased my team’s visibility by leading demos for the data warehouse’s dashboards and visualizations
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Streamlined system engineer daily operations by creating Bash scripts for our Linux servers
+          </li>
+           
+        </ul>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingBottom": "50px",
+        }
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <img
+            alt="University of Pitsburgh Medical Center-logo"
+            src="upmc_logo.jpg"
+            style={
+              Object {
+                "width": "327px",
+              }
+            }
+          />
+          <h2
+            className="job-title"
+          >
+            Software Engineer Intern
+          </h2>
+        </div>
+        <div
+          className="subject-sub-date col-md-6"
+        >
+          <p
+            className="float-md-right"
+          >
+            June/2013-August/2013
+          </p>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-12"
+        >
+          <p
+            className="job-description"
+          >
+            A summer internship between my college junior and senior year
+             
+            <a
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              
+            </a>
+             
+          </p>
+          <p
+            className="job-team-name"
+          >
+            E Record Custom App Development
+          </p>
+        </div>
+        <ul>
+          <li
+            className="job-key-points"
+          >
+            Designed and developed web based tool for administering support for a hierarchy of questions
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Actively participated in the team’s new agile scrum software development process
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Participated in numerous interviews for open Software Engineer position with team
+          </li>
+           
+        </ul>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`the Experience component snapshot test experience details with link and image logo 1`] = `
+<div
+  style={
+    Object {
+      "paddingBottom": "50px",
+    }
+  }
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-6"
+    >
+      <img
+        alt="Cross Country Traveler-logo"
+        src="gone-hiking-logo.png"
+        style={
+          Object {
+            "width": "327px",
+          }
+        }
+      />
+      <h2
+        className="job-title"
+      >
+        Solo Adventurer
+      </h2>
+    </div>
+    <div
+      className="subject-sub-date col-md-6"
+    >
+      <p
+        className="float-md-right"
+      >
+        August/2016-January/2017
+      </p>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12"
+    >
+      <p
+        className="job-description"
+      >
+        A solo 6 month adventure across America summarized using D3
+         
+        <a
+          href="https://schretzilla.github.io/adventure-america/index"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          here
+        </a>
+         
+      </p>
+      <p
+        className="job-team-name"
+      >
+        
+      </p>
+    </div>
+    <ul>
+      <li
+        className="job-key-points"
+      >
+        Volunteered with Samaritain's Purse helping Louisiana flood victims
+      </li>
+      <li
+        className="job-key-points"
+      >
+        Summited 24 of Colorado’s 14,000+ foot mountains
+      </li>
+      <li
+        className="job-key-points"
+      >
+        Confirmed strategy and required actions for my five-year plan
+      </li>
+       
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`the Extra Activities component snapshot test 1`] = `
+Array [
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <h2
+        className="subject-header"
+      >
+        Away from the Screen
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="align-items-center row"
+    >
+      <div
+        className="col-md-1"
+      />
+      <div
+        className="col-md-10"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="slick-slider slick-initialized"
+            dir="ltr"
+          >
+            <button
+              className="slick-arrow slick-prev"
+              data-role="none"
+              onClick={[Function]}
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+              type="button"
+            >
+               
+              Previous
+            </button>
+            <div
+              className="slick-list"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={null}
+              onMouseMove={null}
+              onMouseUp={[Function]}
+              onTouchCancel={null}
+              onTouchEnd={[Function]}
+              onTouchMove={null}
+              onTouchStart={[Function]}
+              style={Object {}}
+            >
+              <div
+                className="slick-track"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                style={
+                  Object {
+                    "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                    "WebkitTransition": "",
+                    "msTransform": "translateX(0px)",
+                    "opacity": 1,
+                    "transform": "translate3d(0px, 0px, 0px)",
+                    "transition": "",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={-1}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="high school wrestling"
+                        src="high-school-wrestling.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I was an All American high school wrestler
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={false}
+                  className="slick-slide slick-active slick-current"
+                  data-index={0}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "outline": "none",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="ironman"
+                        src="ironman.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I'm an ultra athlete, I've complete 7 marathons, won the Chi Town Half Marathon and completed 2 Ironman competitions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide"
+                  data-index={1}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "outline": "none",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="wrestling club"
+                        src="wrestling-club.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        In college I had the opportunity to be president and coach of the University of Pittsburgh Wrestling Club. Here I had the chance to lead a great team and wrestlers and win quite a few championships.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide"
+                  data-index={2}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "outline": "none",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="samaritans purse"
+                        src="samaritans-purse-group.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        Over my trip across the country I signed up to become part of Samaritan Purse's disaster relief team. We volunteered in Baton Rouge to help the recent flood victims.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide"
+                  data-index={3}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "outline": "none",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="mountains"
+                        src="mountaineering.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I love exploring the outdoors, climbing and mountaineering.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide"
+                  data-index={4}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "outline": "none",
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="high school wrestling"
+                        src="high-school-wrestling.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I was an All American high school wrestler
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={5}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="ironman"
+                        src="ironman.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I'm an ultra athlete, I've complete 7 marathons, won the Chi Town Half Marathon and completed 2 Ironman competitions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={6}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="wrestling club"
+                        src="wrestling-club.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        In college I had the opportunity to be president and coach of the University of Pittsburgh Wrestling Club. Here I had the chance to lead a great team and wrestlers and win quite a few championships.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={7}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="samaritans purse"
+                        src="samaritans-purse-group.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        Over my trip across the country I signed up to become part of Samaritan Purse's disaster relief team. We volunteered in Baton Rouge to help the recent flood victims.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={8}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="mountains"
+                        src="mountaineering.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I love exploring the outdoors, climbing and mountaineering.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-hidden={true}
+                  className="slick-slide slick-cloned"
+                  data-index={9}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "width": 0,
+                    }
+                  }
+                  tabIndex="-1"
+                >
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "width": "100%",
+                        }
+                      }
+                      tabIndex={-1}
+                    >
+                      <img
+                        alt="high school wrestling"
+                        src="high-school-wrestling.jpg"
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <p>
+                        I was an All American high school wrestler
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              className="slick-arrow slick-next"
+              data-role="none"
+              onClick={[Function]}
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+              type="button"
+            >
+               
+              Next
+            </button>
+            <ul
+              className="slick-dots"
+              onMouseEnter={null}
+              onMouseLeave={null}
+              onMouseOver={null}
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+            >
+              <li
+                className="slick-active"
+              >
+                <button
+                  onClick={[Function]}
+                >
+                  1
+                </button>
+              </li>
+              <li
+                className=""
+              >
+                <button
+                  onClick={[Function]}
+                >
+                  2
+                </button>
+              </li>
+              <li
+                className=""
+              >
+                <button
+                  onClick={[Function]}
+                >
+                  3
+                </button>
+              </li>
+              <li
+                className=""
+              >
+                <button
+                  onClick={[Function]}
+                >
+                  4
+                </button>
+              </li>
+              <li
+                className=""
+              >
+                <button
+                  onClick={[Function]}
+                >
+                  5
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-1"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`the Header component snapshot test 1`] = `
+<div
+  className="parallax"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="vertical-center jumbotron"
+    >
+      <h1
+        className="name-header"
+      >
+        Scott Schretzenmaier
+      </h1>
+      <p
+        id="name-description"
+      >
+        Software Engineer, Bug Squasher, Adventure Seeker
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`the Intro component snapshot test 1`] = `
+<div
+  className="row"
+  style={
+    Object {
+      "marginBottom": "50px",
+      "marginTop": "40px",
+    }
+  }
+>
+  <div
+    className="col-md-6 col-sm-12"
+  >
+    <img
+      alt="scott-schretzenmaier-profile"
+      className="img-fluid"
+      src="Profile-Photo.png"
+    />
+  </div>
+  <div
+    className="col-md-6 col-sm-12"
+  >
+    <h1
+      className=" hello-header"
+      style={
+        Object {
+          "opacity": undefined,
+        }
+      }
+    >
+      Hi, I'm Scott
+    </h1>
+    <p
+      className="about-me"
+    >
+      I'm a motivated guy who loves building awesome defense software. I prefer backend development but I dabble with a bit of everything. I'm also a big fan of agile processes, both in development and in life.
+    </p>
+    <ul
+      className="list-inline"
+    >
+      <li>
+        <strong>
+          Email:
+        </strong>
+         schretzy929@gmail.com
+      </li>
+      <li>
+        <strong>
+          Location:
+        </strong>
+         Los Angeles, CA
+      </li>
+    </ul>
+    <div>
+      <a
+        href="https://github.com/schretzilla"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="github logo"
+          src="github-icon.png"
+          style={
+            Object {
+              "height": "37px",
+              "margin": "5px",
+            }
+          }
+        />
+      </a>
+      <a
+        href="http://www.linkedin.com/in/scott-schretzenmaier-26ab1178"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Linked In logo"
+          src="linkedin-logo.png"
+          style={
+            Object {
+              "height": "37px",
+              "margin": "5px",
+            }
+          }
+        />
+      </a>
+      <a
+        href="https://drive.google.com/open?id=1UzKlP_4Am8XAe6fSScxsFzNZIMKlkeUE"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Resume"
+          src="resume-icon.png"
+          style={
+            Object {
+              "height": "37px",
+              "margin": "5px",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`the Projects component snapshot tests full project view 1`] = `
+Array [
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <h2
+        className="subject-header"
+      >
+        Projects
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="trail camera 3-D model"
+          className="img-fluid"
+          src="trail-camera-placement.jpeg"
+        />
+      </div>
+       
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Smart Bird Feeder!
+           
+          <small
+            className="text-muted"
+          >
+            Building species saving technology
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          I had the opportunity to lead a team of engineers as we worked with the San Diego Zoo to develop a Smart Bird Feeder that monitors the health of the Hawaiian Crows. At the conclusion of a month the device we created included the following:
+        </p>
+        <ol>
+          <li>
+            A bird feeder that includes a variety of sensors to track the diet of each bird
+          </li>
+          <li>
+            A repurposed android cell phone that records video of the crows as they feed
+          </li>
+          <li>
+            Remote login capabilities to watch from the bird feeder at any time
+          </li>
+          <li>
+            A user interface for tracking each bird’s status
+          </li>
+        </ol>
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Android SDK
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Java
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            A 3D Enclosure
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Teensy 3.2
+          </li>
+        </ul>
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Team:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Avery Bodenstein
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Andrew Miyaguchi
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            John Madden
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            July/2019
+          </small>
+        </h5>
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Super Pi Boy
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          For my brothers birthday I decided to follow some tutorials online and build him an emulation station. Using my 3-D printer and some soldering skills I was able to encase a retro pi arcade into a small handheld device for him to play on the go.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Raspberry Pi
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            RetroPie Image
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            A 3D printed enclosure
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Solder & Soldering Iron
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            March/2019
+          </small>
+        </h5>
+      </div>
+       
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="Pi Boy - Game Boy"
+          className="img-fluid"
+          src="game-boy.png"
+        />
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="youtube-container col-md-5 col-12 order-md-0 order-1"
+      >
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen={true}
+          frameBorder="0"
+          height="641"
+          src="https://www.youtube.com/embed/j-f__uynkvQ"
+          title="Von Karman Challenge-media"
+          width="475"
+        />
+      </div>
+       
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Von Karman Challenge
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          I led a team of four awesome engineers during Northrop Grumman's Von Karman challenge. Our objective was to create a rover that could navigate through the field, discover hidden QR codes and complete the various tasks encoded in them. Using ROS to handle the communication between the different components and OpenCV to interpret different QR codes, my team was able to successfully build a rover that we named MARV.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            ROS Kinetic
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Raspberry Pi
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            OpenCV
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            C++
+          </li>
+        </ul>
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Team:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Avery Bodenstein
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Andrew Miyaguchi
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Doug Toperzer
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Michael Uy
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            October/2018
+          </small>
+        </h5>
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Project Smart Egg!
+           
+          <small
+            className="text-muted"
+          >
+            Taking the egg drop competition to new levels
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          In preparation for the egg drop competition the Fablab held a, 'Hatchathon' with the objective of creating the smartest egg on the planet.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            ESP32
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Highcharts JS
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            A 3D printed egg
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Bluma's CSS Framework
+          </li>
+        </ul>
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Team:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Andrew Miyaguchi
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            February/2018
+          </small>
+        </h5>
+      </div>
+       
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="Smart Electronic Egg Pieces"
+          className="img-fluid"
+          src="smart-egg.png"
+        />
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="Algorithm Website"
+          className="img-fluid"
+          src="algorithm-animation.png"
+        />
+      </div>
+       
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Algorithm Animation
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          My flight back to LA from Philly took forever, so I used it as an opportunity to build animations for some common sorting algorithms using D3. Here I randomly generate weighted lists of circles then, with the click of a button, I animate each step of the algorithm.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            D3 v4
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Twitter Bootstrap v3
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Hosted using Github Pages
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            January/2018
+          </small>
+        </h5>
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Adventure America
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          A lot of people have asked, 'when you left your job to travel the country, what did you do?' I used D3 to animate my cross country adventure.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            D3 v4
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Twitter Bootstrap v3
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            AngularJS
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Hosted using Github Pages
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            January/2017
+          </small>
+        </h5>
+      </div>
+       
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="Cross Country Adventure Homepage"
+          className="img-fluid"
+          src="x-country-adventure.png"
+        />
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="ExQuizit Homepage"
+          className="img-fluid"
+          src="exquizit.png"
+        />
+      </div>
+       
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          ExQuizit
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          ExQuizit is a Python/Django + Angular web app that allows users to login, create, take and share quizzes with other users.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Django 1.9
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Python 2.7
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            AngularJS 1
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Twitter Bootstrap v3
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Django Rest Framework v3
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            PostgreSQL 9.2
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Hosted using Heroku
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            June/2016
+          </small>
+        </h5>
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-7 col-sm-12"
+      >
+        <h2
+          className="featurette-heading"
+        >
+          Service Base V
+           
+          <small
+            className="text-muted"
+          >
+            
+          </small>
+        </h2>
+        <p
+          className="lead"
+        >
+          SBV is a .Net web app for departmental knowledge management and problem tracking. The backend of ServiceBaseV was then used as the backbone to UPMC's corporate wide Self-Help system.
+        </p>
+        <ol />
+        <ul
+          className="list-inline"
+        >
+          <li
+            className="list-inline-item"
+          >
+            <strong>
+              Tools:
+            </strong>
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            C#
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            .Net Web Application
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Microsoft SQL Database
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            JavaScript/jQuery
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            Twitter Bootstrap v2
+          </li>
+          <li
+            className="list-inline-item"
+          >
+            ADO .Net Entity Framework
+          </li>
+        </ul>
+        <h5
+          className="text-left"
+        >
+          <small
+            className="text-muted"
+          >
+            January/2015
+          </small>
+        </h5>
+      </div>
+       
+      <div
+        className="col-md-5 col-12 order-md-0 order-1"
+      >
+        <img
+          alt="Self Help Homepage"
+          className="img-fluid"
+          src="self-help.png"
+        />
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>,
+]
+`;
+
+exports[`the Projects component snapshot tests project details even indexed image on left 1`] = `
+Array [
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-5 col-12 order-md-0 order-1"
+    >
+      <img
+        alt="trail camera 3-D model"
+        className="img-fluid"
+        src="trail-camera-placement.jpeg"
+      />
+    </div>
+     
+    <div
+      className="col-md-7 col-sm-12"
+    >
+      <h2
+        className="featurette-heading"
+      >
+        Smart Bird Feeder!
+         
+        <small
+          className="text-muted"
+        >
+          Building species saving technology
+        </small>
+      </h2>
+      <p
+        className="lead"
+      >
+        I had the opportunity to lead a team of engineers as we worked with the San Diego Zoo to develop a Smart Bird Feeder that monitors the health of the Hawaiian Crows. At the conclusion of a month the device we created included the following:
+      </p>
+      <ol>
+        <li>
+          A bird feeder that includes a variety of sensors to track the diet of each bird
+        </li>
+        <li>
+          A repurposed android cell phone that records video of the crows as they feed
+        </li>
+        <li>
+          Remote login capabilities to watch from the bird feeder at any time
+        </li>
+        <li>
+          A user interface for tracking each bird’s status
+        </li>
+      </ol>
+      <ul
+        className="list-inline"
+      >
+        <li
+          className="list-inline-item"
+        >
+          <strong>
+            Tools:
+          </strong>
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Android SDK
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Java
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          A 3D Enclosure
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Teensy 3.2
+        </li>
+      </ul>
+      <ul
+        className="list-inline"
+      >
+        <li
+          className="list-inline-item"
+        >
+          <strong>
+            Team:
+          </strong>
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Avery Bodenstein
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Andrew Miyaguchi
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          John Madden
+        </li>
+      </ul>
+      <h5
+        className="text-left"
+      >
+        <small
+          className="text-muted"
+        >
+          July/2019
+        </small>
+      </h5>
+    </div>
+  </div>,
+  <hr
+    className="featurette-divider"
+  />,
+]
+`;
+
+exports[`the Projects component snapshot tests project details odd indexed image on right 1`] = `
+Array [
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-7 col-sm-12"
+    >
+      <h2
+        className="featurette-heading"
+      >
+        Smart Bird Feeder!
+         
+        <small
+          className="text-muted"
+        >
+          Building species saving technology
+        </small>
+      </h2>
+      <p
+        className="lead"
+      >
+        I had the opportunity to lead a team of engineers as we worked with the San Diego Zoo to develop a Smart Bird Feeder that monitors the health of the Hawaiian Crows. At the conclusion of a month the device we created included the following:
+      </p>
+      <ol>
+        <li>
+          A bird feeder that includes a variety of sensors to track the diet of each bird
+        </li>
+        <li>
+          A repurposed android cell phone that records video of the crows as they feed
+        </li>
+        <li>
+          Remote login capabilities to watch from the bird feeder at any time
+        </li>
+        <li>
+          A user interface for tracking each bird’s status
+        </li>
+      </ol>
+      <ul
+        className="list-inline"
+      >
+        <li
+          className="list-inline-item"
+        >
+          <strong>
+            Tools:
+          </strong>
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Android SDK
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Java
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          A 3D Enclosure
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Teensy 3.2
+        </li>
+      </ul>
+      <ul
+        className="list-inline"
+      >
+        <li
+          className="list-inline-item"
+        >
+          <strong>
+            Team:
+          </strong>
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Avery Bodenstein
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Andrew Miyaguchi
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          John Madden
+        </li>
+      </ul>
+      <h5
+        className="text-left"
+      >
+        <small
+          className="text-muted"
+        >
+          July/2019
+        </small>
+      </h5>
+    </div>
+     
+    <div
+      className="col-md-5 col-12 order-md-0 order-1"
+    >
+      <img
+        alt="trail camera 3-D model"
+        className="img-fluid"
+        src="trail-camera-placement.jpeg"
+      />
+    </div>
+  </div>,
+  <hr
+    className="featurette-divider"
+  />,
+]
+`;
+
+exports[`the Tech Stack component snapshot test 1`] = `
+Array [
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <h2
+        className="subject-header"
+      >
+        Tech Stack
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="C#"
+                  className="rounded mx-auto d-block"
+                  src="csharp.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="C#"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://docs.microsoft.com/en-us/dotnet/csharp/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    C#
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="Bootstrap CSS Framework"
+                  className="rounded mx-auto d-block"
+                  src="bootstrap.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="Bootstrap CSS Framework"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://getbootstrap.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Bootstrap CSS Framework
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="React Framework"
+                  className="rounded mx-auto d-block"
+                  src="react.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="React Framework"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://reactjs.org/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    React Framework
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="JavaScript"
+                  className="rounded mx-auto d-block"
+                  src="javascript.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="JavaScript"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    JavaScript
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="Java"
+                  className="rounded mx-auto d-block"
+                  src="java.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="Java"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Java
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="Python"
+                  className="rounded mx-auto d-block"
+                  src="python.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="Python"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://www.python.org/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Python
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <hr
+    className="react-reveal featurette-divider"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  />,
+]
+`;
