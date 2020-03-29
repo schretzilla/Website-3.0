@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the Header component snapshot test 1`] = `
+<div
+  className="parallax"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="vertical-center jumbotron"
+    >
+      <h1
+        className="name-header"
+      >
+        Scott Schretzenmaier
+      </h1>
+      <p
+        id="name-description"
+      >
+        Software Engineer, Bug Squasher, Adventure Seeker
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`the Intro component snapshot test 1`] = `
+<div
+  className="row"
+  style={
+    Object {
+      "marginBottom": "50px",
+      "marginTop": "40px",
+    }
+  }
+>
+  <div
+    className="col-md-6 col-sm-12"
+  >
+    <img
+      alt="scott-schretzenmaier-profile"
+      className="img-fluid"
+      src="Profile-Photo.png"
+    />
+  </div>
+  <div
+    className="col-md-6 col-sm-12"
+  >
+    <h1
+      className=" hello-header"
+      style={
+        Object {
+          "opacity": undefined,
+        }
+      }
+    >
+      Hi, I'm Scott
+    </h1>
+    <p
+      className="about-me"
+    >
+      I'm a motivated guy who loves building awesome defense software. I prefer backend development but I dabble with a bit of everything. I'm also a big fan of agile processes, both in development and in life.
+    </p>
+    <ul
+      className="list-inline"
+    >
+      <li>
+        <strong>
+          Email:
+        </strong>
+         schretzy929@gmail.com
+      </li>
+      <li>
+        <strong>
+          Location:
+        </strong>
+         Los Angeles, CA
+      </li>
+    </ul>
+    <div>
+      <a
+        href="https://github.com/schretzilla"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="github logo"
+          src="github-icon.png"
+          style={
+            Object {
+              "height": "37px",
+              "margin": "5px",
+            }
+          }
+        />
+      </a>
+      <a
+        href="http://www.linkedin.com/in/scott-schretzenmaier-26ab1178"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Linked In logo"
+          src="linkedin-logo.png"
+          style={
+            Object {
+              "height": "37px",
+              "margin": "5px",
+            }
+          }
+        />
+      </a>
+      <a
+        href="https://drive.google.com/open?id=1UzKlP_4Am8XAe6fSScxsFzNZIMKlkeUE"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Resume"
+          src="resume-icon.png"
+          style={
+            Object {
+              "height": "37px",
+              "margin": "5px",
+            }
+          }
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`the Projects component snapshot tests image on left 1`] = `
+Array [
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-5 col-12 order-md-0 order-1"
+    >
+      <img
+        alt="trail camera 3-D model"
+        className="img-fluid"
+        src="trail-camera-placement.jpeg"
+      />
+    </div>
+     
+    <div
+      className="col-md-7 col-sm-12"
+    >
+      <h2
+        className="featurette-heading"
+      >
+        Smart Bird Feeder!
+         
+        <small
+          className="text-muted"
+        >
+          Building species saving technology
+        </small>
+      </h2>
+      <p
+        className="lead"
+      >
+        I had the opportunity to lead a team of engineers as we worked with the San Diego Zoo to develop a Smart Bird Feeder that monitors the health of the Hawaiian Crows. At the conclusion of a month the device we created included the following:
+      </p>
+      <ol>
+        <li>
+          A bird feeder that includes a variety of sensors to track the diet of each bird
+        </li>
+        <li>
+          A repurposed android cell phone that records video of the crows as they feed
+        </li>
+        <li>
+          Remote login capabilities to watch from the bird feeder at any time
+        </li>
+        <li>
+          A user interface for tracking each bird’s status
+        </li>
+      </ol>
+      <ul
+        className="list-inline"
+      >
+        <li
+          className="list-inline-item"
+        >
+          <strong>
+            Tools:
+          </strong>
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Android SDK
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Java
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          A 3D Enclosure
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Teensy 3.2
+        </li>
+      </ul>
+      <ul
+        className="list-inline"
+      >
+        <li
+          className="list-inline-item"
+        >
+          <strong>
+            Team:
+          </strong>
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Avery Bodenstein
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Andrew Miyaguchi
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          John Madden
+        </li>
+      </ul>
+      <h5
+        className="text-left"
+      >
+        <small
+          className="text-muted"
+        >
+          July/2019
+        </small>
+      </h5>
+    </div>
+  </div>,
+  <hr
+    className="featurette-divider"
+  />,
+]
+`;
+
+exports[`the Projects component snapshot tests image on right 1`] = `
+Array [
+  <div
+    className="row"
+  >
+    <div
+      className="col-md-7 col-sm-12"
+    >
+      <h2
+        className="featurette-heading"
+      >
+        Smart Bird Feeder!
+         
+        <small
+          className="text-muted"
+        >
+          Building species saving technology
+        </small>
+      </h2>
+      <p
+        className="lead"
+      >
+        I had the opportunity to lead a team of engineers as we worked with the San Diego Zoo to develop a Smart Bird Feeder that monitors the health of the Hawaiian Crows. At the conclusion of a month the device we created included the following:
+      </p>
+      <ol>
+        <li>
+          A bird feeder that includes a variety of sensors to track the diet of each bird
+        </li>
+        <li>
+          A repurposed android cell phone that records video of the crows as they feed
+        </li>
+        <li>
+          Remote login capabilities to watch from the bird feeder at any time
+        </li>
+        <li>
+          A user interface for tracking each bird’s status
+        </li>
+      </ol>
+      <ul
+        className="list-inline"
+      >
+        <li
+          className="list-inline-item"
+        >
+          <strong>
+            Tools:
+          </strong>
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Android SDK
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Java
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          A 3D Enclosure
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Teensy 3.2
+        </li>
+      </ul>
+      <ul
+        className="list-inline"
+      >
+        <li
+          className="list-inline-item"
+        >
+          <strong>
+            Team:
+          </strong>
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Avery Bodenstein
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          Andrew Miyaguchi
+        </li>
+        <li
+          className="list-inline-item"
+        >
+          John Madden
+        </li>
+      </ul>
+      <h5
+        className="text-left"
+      >
+        <small
+          className="text-muted"
+        >
+          July/2019
+        </small>
+      </h5>
+    </div>
+     
+    <div
+      className="col-md-5 col-12 order-md-0 order-1"
+    >
+      <img
+        alt="trail camera 3-D model"
+        className="img-fluid"
+        src="trail-camera-placement.jpeg"
+      />
+    </div>
+  </div>,
+  <hr
+    className="featurette-divider"
+  />,
+]
+`;
