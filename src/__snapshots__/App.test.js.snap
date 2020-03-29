@@ -102,7 +102,417 @@ Array [
 ]
 `;
 
-exports[`the Experience component snapshot test with link and image logo 1`] = `
+exports[`the Experience component snapshot test Full Experience View 1`] = `
+Array [
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <h2
+        className="subject-header"
+      >
+        Experience
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingBottom": "50px",
+        }
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <img
+            alt="Northrop Grumman-logo"
+            src="northrop-logo.png"
+            style={
+              Object {
+                "width": "327px",
+              }
+            }
+          />
+          <h2
+            className="job-title"
+          >
+            Software Engineer
+          </h2>
+        </div>
+        <div
+          className="subject-sub-date col-md-6"
+        >
+          <p
+            className="float-md-right"
+          >
+            March/2017-Current
+          </p>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-12"
+        >
+          <p
+            className="job-description"
+          >
+            Led multiple agile engineering teams in designing and developing mission critical software for the Air Force
+             
+            <a
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              
+            </a>
+             
+          </p>
+          <p
+            className="job-team-name"
+          >
+            B-1 Lancer, B-2 Spirit, RAGE & GBSD
+          </p>
+        </div>
+        <ul>
+          <li
+            className="job-key-points"
+          >
+            Created algorithms for tracking GBSD design changes using their modeling software’s restful API
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Developed and implemented the release scheduling and weapon allocation algorithms for the B-1 Lancer’s MPE
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Implemented the foundation for automating integration and unit tests for safer continuous development
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Utilized agile methodologies to plan and prioritize the team’s tasks based on the user’s needs
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Mentored multiple junior engineers by providing both technical and career guidance
+          </li>
+           
+        </ul>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingBottom": "50px",
+        }
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <img
+            alt="Cross Country Traveler-logo"
+            src="gone-hiking-logo.png"
+            style={
+              Object {
+                "width": "327px",
+              }
+            }
+          />
+          <h2
+            className="job-title"
+          >
+            Solo Adventurer
+          </h2>
+        </div>
+        <div
+          className="subject-sub-date col-md-6"
+        >
+          <p
+            className="float-md-right"
+          >
+            August/2016-January/2017
+          </p>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-12"
+        >
+          <p
+            className="job-description"
+          >
+            A solo 6 month adventure across America summarized using D3
+             
+            <a
+              href="https://schretzilla.github.io/adventure-america/index"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              here
+            </a>
+             
+          </p>
+          <p
+            className="job-team-name"
+          >
+            
+          </p>
+        </div>
+        <ul>
+          <li
+            className="job-key-points"
+          >
+            Volunteered with Samaritain's Purse helping Louisiana flood victims
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Summited 24 of Colorado’s 14,000+ foot mountains
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Confirmed strategy and required actions for my five-year plan
+          </li>
+           
+        </ul>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingBottom": "50px",
+        }
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <img
+            alt="University of Pitsburgh Medical Center-logo"
+            src="upmc_logo.jpg"
+            style={
+              Object {
+                "width": "327px",
+              }
+            }
+          />
+          <h2
+            className="job-title"
+          >
+            ISD Rotational Engineer
+          </h2>
+        </div>
+        <div
+          className="subject-sub-date col-md-6"
+        >
+          <p
+            className="float-md-right"
+          >
+            July/2014-July/2016
+          </p>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-12"
+        >
+          <p
+            className="job-description"
+          >
+            A two-year leadership development rotational program designed for selected candidates to develop both technical and operational insight
+             
+            <a
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              
+            </a>
+             
+          </p>
+          <p
+            className="job-team-name"
+          >
+            App Development, UNIX Services, Enterprise Architecture
+          </p>
+        </div>
+        <ul>
+          <li
+            className="job-key-points"
+          >
+            Reduced the help desk’s call queue by developing the company’s Self-Help knowledge management tool
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Enhanced infrastructure analytics by acting as the technical lead for the creation of the IT data warehouse
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Increased my team’s visibility by leading demos for the data warehouse’s dashboards and visualizations
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Streamlined system engineer daily operations by creating Bash scripts for our Linux servers
+          </li>
+           
+        </ul>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "paddingBottom": "50px",
+        }
+      }
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
+        >
+          <img
+            alt="University of Pitsburgh Medical Center-logo"
+            src="upmc_logo.jpg"
+            style={
+              Object {
+                "width": "327px",
+              }
+            }
+          />
+          <h2
+            className="job-title"
+          >
+            Software Engineer Intern
+          </h2>
+        </div>
+        <div
+          className="subject-sub-date col-md-6"
+        >
+          <p
+            className="float-md-right"
+          >
+            June/2013-August/2013
+          </p>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-12"
+        >
+          <p
+            className="job-description"
+          >
+            A summer internship between my college junior and senior year
+             
+            <a
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              
+            </a>
+             
+          </p>
+          <p
+            className="job-team-name"
+          >
+            E Record Custom App Development
+          </p>
+        </div>
+        <ul>
+          <li
+            className="job-key-points"
+          >
+            Designed and developed web based tool for administering support for a hierarchy of questions
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Actively participated in the team’s new agile scrum software development process
+          </li>
+          <li
+            className="job-key-points"
+          >
+            Participated in numerous interviews for open Software Engineer position with team
+          </li>
+           
+        </ul>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`the Experience component snapshot test experience details with link and image logo 1`] = `
 <div
   style={
     Object {

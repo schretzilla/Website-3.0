@@ -3,6 +3,7 @@ import renderer from "react-test-renderer";
 
 import Header from "./Components/Header/HeaderView";
 import Intro from "./Components/Introduction/Intro";
+import ExperienceView from "./Components/Experience/ExperienceView";
 import Details from "./Components/Experience/Components/Details";
 import Project from "./Components/Projects/components/Project";
 import TechStack from "./Components/TechStack/TechStack";
@@ -27,28 +28,36 @@ describe("the Intro component", () => {
 });
 
 describe("the Experience component", () => {
-  const testExpData = {
-    company: "Cross Country Traveler",
-    logo: HikingLogo,
-    title: "Solo Adventurer",
-    dates: "August/2016-January/2017",
-    teams: "",
-    description: "A solo 6 month adventure across America summarized using D3",
-    keyPoints: [
-      "Volunteered with Samaritain's Purse helping Louisiana flood victims",
-      "Summited 24 of Colorado’s 14,000+ foot mountains",
-      "Confirmed strategy and required actions for my five-year plan"
-    ],
-    link: {
-      address: "https://schretzilla.github.io/adventure-america/index",
-      name: "here"
-    }
-  };
-  it("snapshot test with link and image logo", () => {
-    const tree = renderer
-      .create(<Details experienceData={testExpData} />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+  describe("snapshot test", () => {
+    it("Full Experience View", () => {
+      const tree = renderer.create(<ExperienceView />).toJSON();
+      expect(tree).toMatchSnapshot();
+    });
+
+    it("experience details with link and image logo", () => {
+      const testExpData = {
+        company: "Cross Country Traveler",
+        logo: HikingLogo,
+        title: "Solo Adventurer",
+        dates: "August/2016-January/2017",
+        teams: "",
+        description:
+          "A solo 6 month adventure across America summarized using D3",
+        keyPoints: [
+          "Volunteered with Samaritain's Purse helping Louisiana flood victims",
+          "Summited 24 of Colorado’s 14,000+ foot mountains",
+          "Confirmed strategy and required actions for my five-year plan"
+        ],
+        link: {
+          address: "https://schretzilla.github.io/adventure-america/index",
+          name: "here"
+        }
+      };
+      const tree = renderer
+        .create(<Details experienceData={testExpData} />)
+        .toJSON();
+      expect(tree).toMatchSnapshot();
+    });
   });
 });
 
