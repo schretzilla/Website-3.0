@@ -1,5 +1,107 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`the Education component snapshot test 1`] = `
+Array [
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <h2
+        className="subject-header"
+      >
+        Education
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-6 col-sm-12"
+      >
+        <img
+          alt="standing with my step dad at graduation"
+          src="graduation.jpg"
+        />
+      </div>
+      <div
+        className="col-md-6 col-sm-12"
+      >
+        <img
+          alt="University of Pittsburgh logo"
+          className="rounded"
+          src="pitt-logo.png"
+        />
+        <ul
+          className="list-unstyled"
+        >
+          <li>
+            Graduated May 2014
+          </li>
+          <li>
+            GPA: 3.07
+          </li>
+        </ul>
+        <ul
+          className="list-unstyled"
+        >
+          <li>
+            <img
+              alt="green check mark"
+              src="green-check.png"
+            />
+            <em>
+              Bachelor of Science in Applied Mathematics
+            </em>
+          </li>
+          <li>
+            <img
+              alt="green check mark"
+              src="green-check.png"
+            />
+            <em>
+              Bachelor of Arts in Anthropology
+            </em>
+          </li>
+          <li>
+            <img
+              alt="green check mark"
+              src="green-check.png"
+            />
+            <em>
+              Minor in Computer Science
+            </em>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>,
+  <hr
+    className="react-reveal featurette-divider"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  />,
+]
+`;
+
 exports[`the Experience component snapshot test with link and image logo 1`] = `
 <div
   style={
