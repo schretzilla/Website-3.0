@@ -7,22 +7,12 @@ import cSharpIcon from "../Images/tech-stack/csharp.png";
 import bootstrapIcon from "../Images/tech-stack/bootstrap.png";
 import javaScriptIcon from "../Images/tech-stack/javascript.png";
 import pythonIcon from "../Images/tech-stack/python.png";
-import reactIcon from "../Images/tech-stack/react-logo.svg";
-import javaIcon from "../Images/tech-stack/java-logo.png";
+import reactIcon from "../Images/tech-stack/react.png";
+import javaIcon from "../Images/tech-stack/java.png";
 
 import Fade from "react-reveal/Fade";
 
 import Flippy, { FrontSide, BackSide } from "react-flippy";
-
-const FlippyStyle = {
-  width: "200px",
-  height: "300px",
-  textAlign: "center",
-  color: "#FFF",
-  fontFamily: "sans-serif",
-  fontSize: "30px",
-  justifyContent: "center"
-};
 
 const style = {
   flipCol: {
@@ -32,7 +22,7 @@ const style = {
 
 const flipCard = (img, description) => {
   return (
-    <Col xs={6} md={4} lg={2} style={style.flipCol}>
+    <Col xs={6} md={4} xl={2} style={style.flipCol}>
       <Flippy flipOnHover={true} flipDirection="vertical">
         <FrontSide>
           <img
