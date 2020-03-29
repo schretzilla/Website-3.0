@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 
 import Details from "./Components/Details";
 
-import { experienceData } from "../Data/Experience";
+import { experienceData } from "../../Data/Experience";
 import "../../Style/custom.css";
 
 import Fade from "react-reveal/Fade";

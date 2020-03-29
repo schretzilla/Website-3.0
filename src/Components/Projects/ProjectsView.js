@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 
 import Project from "./components/Project";
 
-import { projectData } from "../Data/Projects";
+import { projectData } from "../../Data/Projects";
 
 import Fade from "react-reveal/Fade";
 
