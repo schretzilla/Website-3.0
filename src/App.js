@@ -8,15 +8,15 @@ import Row from "react-bootstrap/Row";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import HeaderView from "./Header/HeaderView";
-import Intro from "./Introduction/Intro";
-import ExperienceView from "./Experience/ExperienceView";
-import ProjectView from "./Projects/ProjectsView";
-import TechStack from "./TechStack/TechStack";
-import EducationView from "./Education/EducationView";
-import ExtraActivities from "./ExtraActivites/ExtraActivites";
+import HeaderView from "./Components/Header/HeaderView";
+import Intro from "./Components/Introduction/Intro";
+import ExperienceView from "./Components/Experience/ExperienceView";
+import ProjectView from "./Components/Projects/ProjectsView";
+import TechStack from "./Components/TechStack/TechStack";
+import EducationView from "./Components/Education/EducationView";
+import ExtraActivities from "./Components/ExtraActivities/ExtraActivities";
 
-import "./style/custom.css";
+import "./Style/custom.css";
 
 function App() {
   return (

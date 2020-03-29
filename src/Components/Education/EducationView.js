@@ -3,11 +3,11 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import "../style/custom.css";
+import "../../Style/custom.css";
 
-import pittLogo from "../Images/pitt-logo.png";
-import greenCheck from "../Images/green-check.png";
-import graduationPhoto from "../Images/graduation.jpg";
+import pittLogo from "../../Images/Education/pitt-logo.png";
+import greenCheck from "../../Images/Education/green-check.png";
+import graduationPhoto from "../../Images/Education/graduation.jpg";
 
 import Fade from "react-reveal/Fade";
 
