@@ -1,6 +1,6 @@
-import NorthropLogo from "../Images/northrop-logo.png";
-import UpmcLogo from "../Images/upmc_logo.jpg";
-import HikingLogo from "../Images/gone-hiking-logo.png";
+import NorthropLogo from "../Images/Experience/northrop-logo.png";
+import UpmcLogo from "../Images/Experience/upmc_logo.jpg";
+import HikingLogo from "../Images/Experience/gone-hiking-logo.png";
 export const experienceData = [
   {
     company: "Northrop Grumman",
