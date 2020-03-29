@@ -462,3 +462,479 @@ Array [
   />,
 ]
 `;
+
+exports[`the Tech Stack component snapshot test 1`] = `
+Array [
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <h2
+        className="subject-header"
+      >
+        Tech Stack
+      </h2>
+    </div>
+  </div>,
+  <div
+    className="react-reveal"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  >
+    <div
+      className="justify-content-center row"
+    >
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="C#"
+                  className="rounded mx-auto d-block"
+                  src="csharp.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="C#"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://docs.microsoft.com/en-us/dotnet/csharp/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    C#
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="Bootstrap CSS Framework"
+                  className="rounded mx-auto d-block"
+                  src="bootstrap.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="Bootstrap CSS Framework"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://getbootstrap.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Bootstrap CSS Framework
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="React Framework"
+                  className="rounded mx-auto d-block"
+                  src="react.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="React Framework"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://reactjs.org/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    React Framework
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="JavaScript"
+                  className="rounded mx-auto d-block"
+                  src="javascript.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="JavaScript"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    JavaScript
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="Java"
+                  className="rounded mx-auto d-block"
+                  src="java.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="Java"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Java
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-xl-2 col-md-4 col-6"
+        style={
+          Object {
+            "marginBottom": "30px",
+          }
+        }
+      >
+        <div
+          className="flippy-container"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="flippy-cardContainer-wrapper vertical"
+          >
+            <div
+              className="flippy-cardContainer  "
+            >
+              <div
+                className="flippy-card flippy-front "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <img
+                  alt="Python"
+                  className="rounded mx-auto d-block"
+                  src="python.png"
+                  style={
+                    Object {
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                    }
+                  }
+                  title="Python"
+                />
+              </div>
+              <div
+                className="flippy-card flippy-back "
+                style={
+                  Object {
+                    "transitionDuration": "0.6s",
+                  }
+                }
+              >
+                <p
+                  className="lead text-center"
+                  style={
+                    Object {
+                      "marginTop": "10%",
+                    }
+                  }
+                >
+                  <a
+                    href="https://www.python.org/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Python
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <hr
+    className="react-reveal featurette-divider"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  />,
+]
+`;

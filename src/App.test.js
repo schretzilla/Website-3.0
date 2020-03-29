@@ -5,6 +5,7 @@ import Header from "./Components/Header/HeaderView";
 import Intro from "./Components/Introduction/Intro";
 import Details from "./Components/Experience/Components/Details";
 import Project from "./Components/Projects/components/Project";
+import TechStack from "./Components/TechStack/TechStack";
 
 import trailCamera from "./Images/Projects/trail-camera-placement.jpeg";
 import HikingLogo from "./Images/Experience/gone-hiking-logo.png";
@@ -83,5 +84,12 @@ describe("the Projects component", () => {
         .toJSON();
       expect(tree).toMatchSnapshot();
     });
+  });
+});
+
+describe("the Tech Stack component", () => {
+  it("snapshot test", () => {
+    const tree = renderer.create(<TechStack />).toJSON();
+    expect(tree).toMatchSnapshot();
   });
 });
