@@ -27,7 +27,7 @@ const style = {
   }
 };
 
-const flipCard = (img, description) => {
+const flipCard = (img, description, link) => {
   return (
     <Col xs={6} md={4} xl={2} style={style.flipCol}>
       <Flippy flipOnHover={true} flipDirection="vertical">
@@ -42,7 +42,9 @@ const flipCard = (img, description) => {
         </FrontSide>
         <BackSide>
           <p className="lead text-center" style={style.techDescription}>
-            {description}
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              {description}
+            </a>
           </p>
         </BackSide>
       </Flippy>
@@ -58,12 +60,28 @@ const TechStack = props => {
       </Row>
 
       <Row className="justify-content-center">
-        {flipCard(cSharpIcon, "C#")}
-        {flipCard(bootstrapIcon, "Bootstrap CSS Framework")}
-        {flipCard(reactIcon, "React Framework")}
-        {flipCard(javaScriptIcon, "JavaScript")}
-        {flipCard(javaIcon, "Java")}
-        {flipCard(pythonIcon, "Python")}
+        {flipCard(
+          cSharpIcon,
+          "C#",
+          "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        )}
+        {flipCard(
+          bootstrapIcon,
+          "Bootstrap CSS Framework",
+          "https://getbootstrap.com/"
+        )}
+        {flipCard(reactIcon, "React Framework", "https://reactjs.org/")}
+        {flipCard(
+          javaScriptIcon,
+          "JavaScript",
+          "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        )}
+        {flipCard(
+          javaIcon,
+          "Java",
+          "https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html"
+        )}
+        {flipCard(pythonIcon, "Python", "https://www.python.org/")}
       </Row>
 
       <hr className="featurette-divider" />
