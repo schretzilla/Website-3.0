@@ -8,7 +8,7 @@ import githubIcon from "../../Images/github-icon.png";
 import linkedInIcon from "../../Images/linkedin-logo.png";
 import resumeIcon from "../../Images/resume-icon.png";
 
-import "../../style/custom.css";
+import "../../Style/custom.css";
 
 import Jump from "react-reveal/Jump";
 
