@@ -3,8 +3,6 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import "../../../Style/custom.css";
-
 const Details = props => {
   const { experienceData } = props;
   const {

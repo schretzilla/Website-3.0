@@ -3,8 +3,6 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import "../../Style/custom.css";
-
 import pittLogo from "../../Images/Education/pitt-logo.png";
 import greenCheck from "../../Images/Education/green-check.png";
 import graduationPhoto from "../../Images/Education/graduation.jpg";

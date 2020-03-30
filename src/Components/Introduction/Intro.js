@@ -8,8 +8,6 @@ import githubIcon from "../../Images/Introduction/github-icon.png";
 import linkedInIcon from "../../Images/Introduction/linkedin-logo.png";
 import resumeIcon from "../../Images/Introduction/resume-icon.png";
 
-import "../../Style/custom.css";
-
 import Jump from "react-reveal/Jump";
 
 const Intro = props => {
