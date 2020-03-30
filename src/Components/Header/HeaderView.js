@@ -2,8 +2,6 @@ import React from "react";
 
 import Container from "react-bootstrap/Container";
 
-import "../../Style/custom.css";
-
 const Header = () => {
   return (
     <>

@@ -5,8 +5,6 @@ import Col from "react-bootstrap/Col";
 
 import ActivitySlider from "./components/ActivitySlider";
 
-import "../../Style/custom.css";
-
 import Fade from "react-reveal/Fade";
 
 const ExtraActivities = () => {

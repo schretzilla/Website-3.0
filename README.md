@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/schretzilla/Website-3.0.svg?branch=master)](https://travis-ci.com/schretzilla/Website-3.0)
+
 # Web Portfolio 3.0
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

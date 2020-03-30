@@ -16,7 +16,7 @@ import TechStack from "./Components/TechStack/TechStack";
 import EducationView from "./Components/Education/EducationView";
 import ExtraActivities from "./Components/ExtraActivities/ExtraActivities";
 
-import "./Style/custom.css";
+import "./style/custom.css";
 
 function App() {
   return (
