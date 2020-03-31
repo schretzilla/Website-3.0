@@ -710,7 +710,7 @@ Array [
                       tabIndex={-1}
                     >
                       <img
-                        alt="high school wrestling"
+                        alt="Medaling in the PA state wrestling competition"
                         src="high-school-wrestling.jpg"
                         style={
                           Object {
@@ -718,8 +718,10 @@ Array [
                           }
                         }
                       />
-                      <p>
-                        I was an All American high school wrestler
+                      <p
+                        className="text-center"
+                      >
+                        I was an All American high school wrestler.
                       </p>
                     </div>
                   </div>
@@ -748,7 +750,7 @@ Array [
                       tabIndex={-1}
                     >
                       <img
-                        alt="ironman"
+                        alt="ironman finish line"
                         src="ironman.jpg"
                         style={
                           Object {
@@ -756,7 +758,9 @@ Array [
                           }
                         }
                       />
-                      <p>
+                      <p
+                        className="text-center"
+                      >
                         I'm an ultra athlete, I've complete 7 marathons, won the Chi Town Half Marathon and completed 2 Ironman competitions.
                       </p>
                     </div>
@@ -786,7 +790,7 @@ Array [
                       tabIndex={-1}
                     >
                       <img
-                        alt="wrestling club"
+                        alt="Wrestling Club"
                         src="wrestling-club.jpg"
                         style={
                           Object {
@@ -794,8 +798,10 @@ Array [
                           }
                         }
                       />
-                      <p>
-                        In college I had the opportunity to be president and coach of the University of Pittsburgh Wrestling Club. Here I had the chance to lead a great team and wrestlers and win quite a few championships.
+                      <p
+                        className="text-center"
+                      >
+                        In college I had the opportunity to be president and coach of the University of Pittsburgh Wrestling Club. Here I had the chance to lead a great team of wrestlers and win a few championships.
                       </p>
                     </div>
                   </div>
@@ -824,7 +830,7 @@ Array [
                       tabIndex={-1}
                     >
                       <img
-                        alt="samaritans purse"
+                        alt="Samaritans Purse volunteer group"
                         src="samaritans-purse-group.jpg"
                         style={
                           Object {
@@ -832,7 +838,9 @@ Array [
                           }
                         }
                       />
-                      <p>
+                      <p
+                        className="text-center"
+                      >
                         Over my trip across the country I signed up to become part of Samaritan Purse's disaster relief team. We volunteered in Baton Rouge to help the recent flood victims.
                       </p>
                     </div>
@@ -862,7 +870,7 @@ Array [
                       tabIndex={-1}
                     >
                       <img
-                        alt="mountains"
+                        alt="Scott in the mountains"
                         src="mountaineering.jpg"
                         style={
                           Object {
@@ -870,7 +878,9 @@ Array [
                           }
                         }
                       />
-                      <p>
+                      <p
+                        className="text-center"
+                      >
                         I love exploring the outdoors, climbing and mountaineering.
                       </p>
                     </div>
@@ -900,7 +910,7 @@ Array [
                       tabIndex={-1}
                     >
                       <img
-                        alt="high school wrestling"
+                        alt="Medaling in the PA state wrestling competition"
                         src="high-school-wrestling.jpg"
                         style={
                           Object {
@@ -908,8 +918,10 @@ Array [
                           }
                         }
                       />
-                      <p>
-                        I was an All American high school wrestler
+                      <p
+                        className="text-center"
+                      >
+                        I was an All American high school wrestler.
                       </p>
                     </div>
                   </div>
@@ -937,7 +949,7 @@ Array [
                       tabIndex={-1}
                     >
                       <img
-                        alt="ironman"
+                        alt="ironman finish line"
                         src="ironman.jpg"
                         style={
                           Object {
@@ -945,7 +957,9 @@ Array [
                           }
                         }
                       />
-                      <p>
+                      <p
+                        className="text-center"
+                      >
                         I'm an ultra athlete, I've complete 7 marathons, won the Chi Town Half Marathon and completed 2 Ironman competitions.
                       </p>
                     </div>
@@ -974,7 +988,7 @@ Array [
                       tabIndex={-1}
                     >
                       <img
-                        alt="wrestling club"
+                        alt="Wrestling Club"
                         src="wrestling-club.jpg"
                         style={
                           Object {
@@ -982,8 +996,10 @@ Array [
                           }
                         }
                       />
-                      <p>
-                        In college I had the opportunity to be president and coach of the University of Pittsburgh Wrestling Club. Here I had the chance to lead a great team and wrestlers and win quite a few championships.
+                      <p
+                        className="text-center"
+                      >
+                        In college I had the opportunity to be president and coach of the University of Pittsburgh Wrestling Club. Here I had the chance to lead a great team of wrestlers and win a few championships.
                       </p>
                     </div>
                   </div>
@@ -1011,7 +1027,7 @@ Array [
                       tabIndex={-1}
                     >
                       <img
-                        alt="samaritans purse"
+                        alt="Samaritans Purse volunteer group"
                         src="samaritans-purse-group.jpg"
                         style={
                           Object {
@@ -1019,7 +1035,9 @@ Array [
                           }
                         }
                       />
-                      <p>
+                      <p
+                        className="text-center"
+                      >
                         Over my trip across the country I signed up to become part of Samaritan Purse's disaster relief team. We volunteered in Baton Rouge to help the recent flood victims.
                       </p>
                     </div>
@@ -1048,7 +1066,7 @@ Array [
                       tabIndex={-1}
                     >
                       <img
-                        alt="mountains"
+                        alt="Scott in the mountains"
                         src="mountaineering.jpg"
                         style={
                           Object {
@@ -1056,7 +1074,9 @@ Array [
                           }
                         }
                       />
-                      <p>
+                      <p
+                        className="text-center"
+                      >
                         I love exploring the outdoors, climbing and mountaineering.
                       </p>
                     </div>
@@ -1085,7 +1105,7 @@ Array [
                       tabIndex={-1}
                     >
                       <img
-                        alt="high school wrestling"
+                        alt="Medaling in the PA state wrestling competition"
                         src="high-school-wrestling.jpg"
                         style={
                           Object {
@@ -1093,8 +1113,10 @@ Array [
                           }
                         }
                       />
-                      <p>
-                        I was an All American high school wrestler
+                      <p
+                        className="text-center"
+                      >
+                        I was an All American high school wrestler.
                       </p>
                     </div>
                   </div>
@@ -1447,7 +1469,7 @@ Array [
           </li>
         </ul>
         <h5
-          className="text-left"
+          className="text-right"
         >
           <small
             className="text-muted"
@@ -1656,7 +1678,7 @@ Array [
           </li>
         </ul>
         <h5
-          className="text-left"
+          className="text-right"
         >
           <small
             className="text-muted"
@@ -1841,7 +1863,7 @@ Array [
           </li>
         </ul>
         <h5
-          className="text-left"
+          className="text-right"
         >
           <small
             className="text-muted"
@@ -2030,7 +2052,7 @@ Array [
           </li>
         </ul>
         <h5
-          className="text-left"
+          className="text-right"
         >
           <small
             className="text-muted"
@@ -2250,7 +2272,7 @@ Array [
         </li>
       </ul>
       <h5
-        className="text-left"
+        className="text-right"
       >
         <small
           className="text-muted"
