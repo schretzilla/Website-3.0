@@ -4,7 +4,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const Project = props => {
+  //add anchor link
   const { projectData, indexNumber } = props;
+  const textOnRight = indexNumber % 2 === 0;
 
   const extraDetailsList = projectData.extraDetails.map((detail, i) => {
     return <li key={`${projectData.name}-detail-${i}`}>{detail}</li>;
@@ -52,6 +54,7 @@ const Project = props => {
         ></iframe>
       </Col>
     );
+  const dateClass = textOnRight ? "text-right" : "text-left";
   const descriptionColumn = (
     <Col sm={12} md={7}>
       <h2 className="featurette-heading">
@@ -78,14 +81,15 @@ const Project = props => {
         </ul>
       )}
 
-      <h5 className="text-left">
+      {/* Should be right if element is right side */}
+      <h5 className={dateClass}>
         <small className="text-muted">{projectData.date}</small>
       </h5>
     </Col>
   );
 
   let projectContent;
-  if (indexNumber % 2 === 0) {
+  if (textOnRight) {
     projectContent = (
       <>
         {imageColumn} {descriptionColumn}
