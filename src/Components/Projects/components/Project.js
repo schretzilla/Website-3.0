@@ -4,7 +4,6 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 const Project = props => {
-  //add anchor link
   const { projectData, indexNumber } = props;
   const textOnRight = indexNumber % 2 === 0;
 
@@ -81,7 +80,6 @@ const Project = props => {
         </ul>
       )}
 
-      {/* Should be right if element is right side */}
       <h5 className={dateClass}>
         <small className="text-muted">{projectData.date}</small>
       </h5>
