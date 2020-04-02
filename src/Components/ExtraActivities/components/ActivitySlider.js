@@ -1,3 +1,4 @@
+/* eslint-disable react/prefer-stateless-function */
 import React, { Component } from "react";
 import Slider from "react-slick";
 
@@ -16,13 +17,13 @@ export default class SimpleSlider extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
     };
 
     const style = {
       image: {
-        width: "100%"
-      }
+        width: "100%",
+      },
     };
 
     const sliderComponent = (photo, altTag, description) => (
@@ -34,31 +35,32 @@ export default class SimpleSlider extends Component {
 
     return (
       <Col>
+        {/* eslint-disable-next-line react/jsx-props-no-spreading */}
         <Slider {...settings}>
           {sliderComponent(
             ironmanPhoto,
             "ironman finish line",
-            "I'm an ultra athlete, I've complete 7 marathons, won the Chi Town Half Marathon and completed 2 Ironman competitions."
+            "I'm an ultra athlete, I've complete 7 marathons, won the Chi Town Half Marathon and completed 2 Ironman competitions.",
           )}
           {sliderComponent(
             wrestlingClub,
             "Wrestling Club",
-            "In college I had the opportunity to be president and coach of the University of Pittsburgh Wrestling Club. Here I had the chance to lead a great team of wrestlers and win a few championships."
+            "In college I had the opportunity to be president and coach of the University of Pittsburgh Wrestling Club. Here I had the chance to lead a great team of wrestlers and win a few championships.",
           )}
           {sliderComponent(
             samaritansPurse,
             "Samaritans Purse volunteer group",
-            "Over my trip across the country I signed up to become part of Samaritan Purse's disaster relief team. We volunteered in Baton Rouge to help the recent flood victims."
+            "Over my trip across the country I signed up to become part of Samaritan Purse's disaster relief team. We volunteered in Baton Rouge to help the recent flood victims.",
           )}
           {sliderComponent(
             mountains,
             "Scott in the mountains",
-            "I love exploring the outdoors, climbing and mountaineering."
+            "I love exploring the outdoors, climbing and mountaineering.",
           )}
           {sliderComponent(
             highSchoolWrestling,
             "Medaling in the PA state wrestling competition",
-            "I was an All American high school wrestler."
+            "I was an All American high school wrestler.",
           )}
         </Slider>
       </Col>

@@ -42,21 +42,18 @@ describe("the Experience component", () => {
         title: "Solo Adventurer",
         dates: "August/2016-January/2017",
         teams: "",
-        description:
-          "A solo 6 month adventure across America summarized using D3",
+        description: "A solo 6 month adventure across America summarized using D3",
         keyPoints: [
           "Volunteered with Samaritain's Purse helping Louisiana flood victims",
           "Summited 24 of Colorado’s 14,000+ foot mountains",
-          "Confirmed strategy and required actions for my five-year plan"
+          "Confirmed strategy and required actions for my five-year plan",
         ],
         link: {
           address: "https://schretzilla.github.io/adventure-america/index",
-          name: "here"
-        }
+          name: "here",
+        },
       };
-      const tree = renderer
-        .create(<Details experienceData={testExpData} />)
-        .toJSON();
+      const tree = renderer.create(<Details experienceData={testExpData} />).toJSON();
       expect(tree).toMatchSnapshot();
     });
   });
@@ -72,7 +69,7 @@ describe("the Projects component", () => {
       "A bird feeder that includes a variety of sensors to track the diet of each bird",
       "A repurposed android cell phone that records video of the crows as they feed",
       "Remote login capabilities to watch from the bird feeder at any time",
-      "A user interface for tracking each bird’s status"
+      "A user interface for tracking each bird’s status",
     ],
     tools: ["Android SDK", "Java", "A 3D Enclosure", "Teensy 3.2"],
     team: ["Avery Bodenstein", "Andrew Miyaguchi", "John Madden"],
@@ -80,8 +77,8 @@ describe("the Projects component", () => {
     media: {
       type: "image",
       name: "trail camera 3-D model",
-      src: trailCamera
-    }
+      src: trailCamera,
+    },
   };
   describe("snapshot tests", () => {
     it("full project view", () => {

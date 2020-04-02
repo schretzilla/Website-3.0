@@ -2,20 +2,17 @@ import React from "react";
 
 import Row from "react-bootstrap/Row";
 
+import Fade from "react-reveal/Fade";
 import Details from "./Components/Details";
 
-import { experienceData } from "../../Data/Experience";
+import experienceData from "../../Data/Experience";
 
-import Fade from "react-reveal/Fade";
-
-const ExperienceView = props => {
-  const detailSections = experienceData.map((experienceObj, i) => {
-    return (
-      <Fade bottom key={experienceObj.company + i}>
-        <Details experienceData={experienceObj} />
-      </Fade>
-    );
-  });
+const ExperienceView = () => {
+  const detailSections = experienceData.map((experienceObj) => (
+    <Fade bottom key={experienceObj.company + experienceObj.title}>
+      <Details experienceData={experienceObj} />
+    </Fade>
+  ));
   return (
     <>
       <Fade bottom>
