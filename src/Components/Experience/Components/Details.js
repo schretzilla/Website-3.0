@@ -3,7 +3,7 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const Details = props => {
+const Details = (props) => {
   const { experienceData } = props;
   const { company, title, dates, description, teams, keyPoints, link, logo } = experienceData;
 
@@ -15,8 +15,9 @@ const Details = props => {
       paddingBottom: "50px",
     },
   };
-  const keyPointElement = keyPoints.map(keyPoint => (
-    <li key={`key-point-${company}-${title}`} className="job-key-points">
+  const keyPointElement = keyPoints.map((keyPoint, i) => (
+    // eslint-disable-next-line react/no-array-index-key
+    <li key={`key-point-${company}-${i}`} className="job-key-points">
       {keyPoint}
     </li>
   ));

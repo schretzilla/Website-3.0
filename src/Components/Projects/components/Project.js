@@ -7,18 +7,21 @@ const Project = (props) => {
   const { projectData, indexNumber } = props;
   const textOnRight = indexNumber % 2 === 0;
 
-  const extraDetailsList = projectData.extraDetails.map((detail) => (
-    <li key={`${projectData.name}-detail`}>{detail}</li>
+  const extraDetailsList = projectData.extraDetails.map((detail, i) => (
+    // eslint-disable-next-line react/no-array-index-key
+    <li key={`${projectData.name}-detail-${i}`}>{detail}</li>
   ));
 
-  const toolsList = projectData.tools.map((tool) => (
-    <li className="list-inline-item" key={`${projectData.name}-tool`}>
+  const toolsList = projectData.tools.map((tool, i) => (
+    // eslint-disable-next-line react/no-array-index-key
+    <li className="list-inline-item" key={`${projectData.name}-tool-${i}`}>
       {tool}
     </li>
   ));
 
-  const teamMemberList = projectData.team.map((member) => (
-    <li className="list-inline-item" key={`${projectData.name}-member`}>
+  const teamMemberList = projectData.team.map((member, i) => (
+    // eslint-disable-next-line react/no-array-index-key
+    <li className="list-inline-item" key={`${projectData.name}-member-${i}`}>
       {member}
     </li>
   ));
