@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+
 // jest-dom adds custom jest matchers for asserting on DOM nodes.
 // allows you to do things like:
 // expect(element).toHaveTextContent(/react/i)
@@ -7,10 +9,10 @@ import "@testing-library/jest-dom/extend-expect";
 // match media mock to prevent errors when slick js is tested
 window.matchMedia =
   window.matchMedia ||
-  function() {
+  function () {
     return {
       matches: false,
-      addListener: function() {},
-      removeListener: function() {}
+      addListener() {},
+      removeListener() {},
     };
   };

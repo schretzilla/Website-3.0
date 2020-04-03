@@ -3,34 +3,24 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const Details = props => {
+const Details = (props) => {
   const { experienceData } = props;
-  const {
-    company,
-    title,
-    dates,
-    description,
-    teams,
-    keyPoints,
-    link,
-    logo
-  } = experienceData;
+  const { company, title, dates, description, teams, keyPoints, link, logo } = experienceData;
 
   const style = {
     logo: {
-      width: "327px"
+      width: "327px",
     },
     container: {
-      paddingBottom: "50px"
-    }
+      paddingBottom: "50px",
+    },
   };
-  const keyPointElement = keyPoints.map((keyPoint, i) => {
-    return (
-      <li key={`key-point-${company}-${i}`} className="job-key-points">
-        {keyPoint}
-      </li>
-    );
-  });
+  const keyPointElement = keyPoints.map((keyPoint, i) => (
+    // eslint-disable-next-line react/no-array-index-key
+    <li key={`key-point-${company}-${i}`} className="job-key-points">
+      {keyPoint}
+    </li>
+  ));
 
   const linkToExtraData = (
     <a target="_blank" href={link.address} rel="noopener noreferrer">

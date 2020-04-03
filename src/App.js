@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Container from "react-bootstrap/Container";
 
 import Row from "react-bootstrap/Row";
@@ -7,6 +6,8 @@ import Row from "react-bootstrap/Row";
 // Slick Carousel styling
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+import "./App.css";
 
 import HeaderView from "./Components/Header/HeaderView";
 import Intro from "./Components/Introduction/Intro";

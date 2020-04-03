@@ -2,20 +2,17 @@ import React from "react";
 
 import Row from "react-bootstrap/Row";
 
+import Fade from "react-reveal/Fade";
 import Project from "./components/Project";
 
-import { projectData } from "../../Data/Projects";
-
-import Fade from "react-reveal/Fade";
+import projectData from "../../Data/Projects";
 
 const ProjectView = () => {
-  const projectSections = projectData.map((projectObj, i) => {
-    return (
-      <Fade bottom key={projectObj.name + i}>
-        <Project projectData={projectObj} indexNumber={i} />
-      </Fade>
-    );
-  });
+  const projectSections = projectData.map((projectObj, i) => (
+    <Fade bottom key={projectObj.name}>
+      <Project projectData={projectObj} indexNumber={i} />
+    </Fade>
+  ));
 
   return (
     <>
