@@ -5,12 +5,13 @@ cache:
   directories:
     - node_modules
 
+# '-' indicates start of a stage job
 jobs:
   include:
     - stage: "Quality-Checks"
       name: "Linting"
       script: npm run lint
-    - script: npm run test
-      name: "snapshot tests"
+    - name: "snapshot tests"
+      script: npm run test
     - stage: "Build"
       script: npm run build
