@@ -7,9 +7,10 @@ cache:
 
 jobs:
   include:
-    - stage: lint
-      script: npm run lint
-    - stage: test
-      script: npm test
-    - stage: build
+    - stage: "Quality-Checks"
+      name: "Linting"
+    - script: npm run lint
+      name: "Testing"
+    - script: npm test
+    - stage: "Build"
       script: npm run build
