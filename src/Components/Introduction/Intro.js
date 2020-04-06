@@ -5,8 +5,8 @@ import Col from "react-bootstrap/Col";
 
 import Jump from "react-reveal/Jump";
 import profilePhoto from "../../Images/Introduction/Profile-Photo.png";
-import githubIcon from "../../Images/Introduction/github-icon.png";
-import linkedInIcon from "../../Images/Introduction/linkedin-logo.png";
+import githubIcon from "../../Images/Introduction/github-icon-md.svg";
+import linkedInIcon from "../../Images/Introduction/linkedin-logo-md.png";
 import resumeIcon from "../../Images/Introduction/resume-icon.png";
 
 const Intro = () => {
@@ -16,8 +16,8 @@ const Intro = () => {
       marginBottom: "50px",
     },
     icon: {
-      height: "37px",
-      margin: "5px",
+      height: "70px",
+      margin: "10px",
     },
   };
   return (
@@ -44,7 +44,7 @@ const Intro = () => {
           </li>
         </ul>
 
-        <div>
+        <Row className="justify-content-center">
           <a href="https://github.com/schretzilla" target="_blank" rel="noopener noreferrer">
             <img style={style.icon} src={githubIcon} alt="github logo" />
           </a>
@@ -56,6 +56,7 @@ const Intro = () => {
           >
             <img style={style.icon} src={linkedInIcon} alt="Linked In logo" />
           </a>
+
           <a
             href="https://drive.google.com/open?id=1UzKlP_4Am8XAe6fSScxsFzNZIMKlkeUE"
             target="_blank"
@@ -63,7 +64,7 @@ const Intro = () => {
           >
             <img style={style.icon} src={resumeIcon} alt="Resume" />
           </a>
-        </div>
+        </Row>
       </Col>
     </Row>
   );
