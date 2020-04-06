@@ -509,6 +509,9 @@ Array [
       </div>
     </div>
   </div>,
+  <hr
+    className="featurette-divider"
+  />,
 ]
 `;
 
@@ -1274,7 +1277,12 @@ exports[`the Intro component snapshot test 1`] = `
         <strong>
           Email:
         </strong>
-         schretzy929@gmail.com
+         
+        <a
+          href="mailto:schretzy929@gmail.com"
+        >
+          schretzy929@gmail.com
+        </a>
       </li>
       <li>
         <strong>
@@ -1283,7 +1291,9 @@ exports[`the Intro component snapshot test 1`] = `
          Los Angeles, CA
       </li>
     </ul>
-    <div>
+    <div
+      className="justify-content-center row"
+    >
       <a
         href="https://github.com/schretzilla"
         rel="noopener noreferrer"
@@ -1291,11 +1301,11 @@ exports[`the Intro component snapshot test 1`] = `
       >
         <img
           alt="github logo"
-          src="github-icon.png"
+          src="github-icon.svg"
           style={
             Object {
-              "height": "37px",
-              "margin": "5px",
+              "height": "70px",
+              "margin": "10px",
             }
           }
         />
@@ -1310,8 +1320,8 @@ exports[`the Intro component snapshot test 1`] = `
           src="linkedin-logo.png"
           style={
             Object {
-              "height": "37px",
-              "margin": "5px",
+              "height": "70px",
+              "margin": "10px",
             }
           }
         />
@@ -1326,8 +1336,8 @@ exports[`the Intro component snapshot test 1`] = `
           src="resume-icon.png"
           style={
             Object {
-              "height": "37px",
-              "margin": "5px",
+              "height": "70px",
+              "margin": "10px",
             }
           }
         />
@@ -2492,22 +2502,28 @@ Array [
                   }
                 }
               >
-                <p
-                  className="lead text-center"
+                <div
                   style={
                     Object {
-                      "marginTop": "10%",
+                      "alignItems": "center",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
                     }
                   }
                 >
-                  <a
-                    href="https://docs.microsoft.com/en-us/dotnet/csharp/"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <p
+                    className="lead text-center"
                   >
-                    C#
-                  </a>
-                </p>
+                    <a
+                      href="https://docs.microsoft.com/en-us/dotnet/csharp/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      C#
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -2564,22 +2580,28 @@ Array [
                   }
                 }
               >
-                <p
-                  className="lead text-center"
+                <div
                   style={
                     Object {
-                      "marginTop": "10%",
+                      "alignItems": "center",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
                     }
                   }
                 >
-                  <a
-                    href="https://getbootstrap.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <p
+                    className="lead text-center"
                   >
-                    Bootstrap CSS Framework
-                  </a>
-                </p>
+                    <a
+                      href="https://getbootstrap.com/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Bootstrap CSS Framework
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -2636,22 +2658,28 @@ Array [
                   }
                 }
               >
-                <p
-                  className="lead text-center"
+                <div
                   style={
                     Object {
-                      "marginTop": "10%",
+                      "alignItems": "center",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
                     }
                   }
                 >
-                  <a
-                    href="https://reactjs.org/"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <p
+                    className="lead text-center"
                   >
-                    React Framework
-                  </a>
-                </p>
+                    <a
+                      href="https://reactjs.org/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      React Framework
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -2708,22 +2736,28 @@ Array [
                   }
                 }
               >
-                <p
-                  className="lead text-center"
+                <div
                   style={
                     Object {
-                      "marginTop": "10%",
+                      "alignItems": "center",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
                     }
                   }
                 >
-                  <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <p
+                    className="lead text-center"
                   >
-                    JavaScript
-                  </a>
-                </p>
+                    <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      JavaScript
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -2780,22 +2814,28 @@ Array [
                   }
                 }
               >
-                <p
-                  className="lead text-center"
+                <div
                   style={
                     Object {
-                      "marginTop": "10%",
+                      "alignItems": "center",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
                     }
                   }
                 >
-                  <a
-                    href="https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <p
+                    className="lead text-center"
                   >
-                    Java
-                  </a>
-                </p>
+                    <a
+                      href="https://docs.oracle.com/javase/8/docs/technotes/guides/language/index.html"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Java
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -2852,22 +2892,28 @@ Array [
                   }
                 }
               >
-                <p
-                  className="lead text-center"
+                <div
                   style={
                     Object {
-                      "marginTop": "10%",
+                      "alignItems": "center",
+                      "display": "flex",
+                      "height": "100%",
+                      "justifyContent": "center",
                     }
                   }
                 >
-                  <a
-                    href="https://www.python.org/"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                  <p
+                    className="lead text-center"
                   >
-                    Python
-                  </a>
-                </p>
+                    <a
+                      href="https://www.python.org/"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Python
+                    </a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
