@@ -37,7 +37,7 @@ const Intro = () => {
 
         <ul className="list-inline">
           <li>
-            <strong>Email:</strong> schretzy929@gmail.com
+            <strong>Email:</strong> <a href="mailto:schretzy929@gmail.com">schretzy929@gmail.com</a>
           </li>
           <li>
             <strong>Location:</strong> Los Angeles, CA
