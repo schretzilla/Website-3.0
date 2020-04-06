@@ -17,7 +17,10 @@ const style = {
     marginBottom: "30px",
   },
   techDescription: {
-    marginTop: "10%",
+    justifyContent: "center",
+    display: "flex",
+    alignItems: "center",
+    height: "100%",
   },
   techIcon: {
     maxWidth: "100%",
@@ -38,11 +41,13 @@ const flipCard = (img, description, link) => (
         />
       </FrontSide>
       <BackSide>
-        <p className="lead text-center" style={style.techDescription}>
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            {description}
-          </a>
-        </p>
+        <div style={style.techDescription}>
+          <p className="lead text-center">
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              {description}
+            </a>
+          </p>
+        </div>
       </BackSide>
     </Flippy>
   </Col>
