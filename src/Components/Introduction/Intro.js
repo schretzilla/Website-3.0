@@ -5,8 +5,8 @@ import Col from "react-bootstrap/Col";
 
 import Jump from "react-reveal/Jump";
 import profilePhoto from "../../Images/Introduction/Profile-Photo.png";
-import githubIcon from "../../Images/Introduction/github-icon-md.svg";
-import linkedInIcon from "../../Images/Introduction/linkedin-logo-md.png";
+import githubIcon from "../../Images/Introduction/github-icon.svg";
+import linkedInIcon from "../../Images/Introduction/linkedin-logo.png";
 import resumeIcon from "../../Images/Introduction/resume-icon.png";
 
 const Intro = () => {
