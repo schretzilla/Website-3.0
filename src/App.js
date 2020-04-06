@@ -30,9 +30,9 @@ function App() {
       <HeaderView />
       <Container className="marketing">
         <Intro />
+        <TechStack />
         <ExperienceView />
         <ProjectView />
-        <TechStack />
         <EducationView />
         <ExtraActivities />
       </Container>
