@@ -22,6 +22,8 @@ const ExperienceView = () => {
       </Fade>
 
       {detailSections}
+
+      <hr className="featurette-divider" />
     </>
   );
 };
