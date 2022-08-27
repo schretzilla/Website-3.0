@@ -23,3 +23,8 @@ Creates the production build of the app.
 ### 'npm start'
 
 Starts the express server at [http://localhost:8080](http://localhost:8080). This is used by Heroku to deploy the production version of the app.
+
+## Environment Details
+
+- Hosted on [Heroku](https://www.heroku.com/)
+- Heroku deploys directly from the github master branch
