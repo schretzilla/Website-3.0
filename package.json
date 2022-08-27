@@ -7,7 +7,7 @@
     "express": "4.17.1",
     "express-favicon": "2.0.1",
     "react": "18.2.0",
-    "react-bootstrap": "1.4.3",
+    "react-bootstrap": "1.6.6",
     "react-dom": "18.2.0",
     "react-flippy": "0.1.5",
     "react-ga": "2.7.0",
