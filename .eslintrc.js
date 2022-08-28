@@ -1,13 +1,19 @@
 module.exports = {
-  parser: "babel-eslint",
-  parserOptions: {
-    ecmaVersion: 6
+  env: {
+    browser: true,
+    es2021: true,
   },
   extends: ["airbnb", "plugin:prettier/recommended", "plugin:jest/recommended"],
+  overrides: [],
+  parser: "@babel/eslint-parser",
+  parserOptions: {
+    ecmaVersion: "latest",
+    sourceType: "module",
+  },
   plugins: ["import", "jest", "prettier", "react-hooks"],
   env: {
     node: true,
-    "jest/globals": true
+    "jest/globals": true,
   },
   rules: {
     "no-console": "off",
@@ -15,8 +21,16 @@ module.exports = {
     "react/jsx-filename-extension": [
       1,
       {
-        extensions: [".js", ".jsx"]
-      }
+        extensions: [".js", ".jsx"],
+      },
+    ],
+    quotes: ["error", "double"],
+    "react/function-component-definition": [
+      2,
+      {
+        namedComponents: "arrow-function",
+        unnamedComponents: "arrow-function",
+      },
     ],
     "react/prop-types": 0,
     "no-underscore-dangle": 0,
@@ -27,7 +41,7 @@ module.exports = {
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-curly-newline": "off",
     "no-return-await": "off",
-    "no-plusplus": "off"
+    "no-plusplus": "off",
   },
   globals: {
     window: true,
@@ -37,6 +51,6 @@ module.exports = {
     FileReader: true,
     Blob: true,
     navigator: true,
-    Image: true
-  }
+    Image: true,
+  },
 };
