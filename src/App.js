@@ -1,4 +1,3 @@
-import ReactGA from "react-ga";
 import React from "react";
 import Container from "react-bootstrap/Container";
 
@@ -19,10 +18,6 @@ import EducationView from "./Components/Education/EducationView";
 import ExtraActivities from "./Components/ExtraActivities/ExtraActivities";
 
 import "./style/custom.css";
-
-// google analytics for app
-ReactGA.initialize("UA-162770517-1");
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
