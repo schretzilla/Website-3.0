@@ -19,7 +19,7 @@ import ExtraActivities from "./Components/ExtraActivities/ExtraActivities";
 
 import "./style/custom.css";
 
-function App() {
+const App = () => {
   return (
     <>
       <HeaderView />
@@ -36,6 +36,6 @@ function App() {
       </Container>
     </>
   );
-}
+};
 
 export default App;
