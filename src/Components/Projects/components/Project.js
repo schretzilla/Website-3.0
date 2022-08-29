@@ -32,11 +32,11 @@ const Project = (props) => {
         <img className="img-fluid" src={projectData.media.src} alt={projectData.media.name} />
       </Col>
     ) : (
-      <Col className="youtube-container" xs={{ order: 1, span: 12 }} md={{ order: 0, span: 5 }}>
+      <Col xs={{ order: 1, span: 12 }} md={{ order: 0, span: 5 }}>
         <iframe
           title={`${projectData.name}-media`}
-          width="475"
-          height="641"
+          width="100%"
+          height="100%"
           src={projectData.media.src}
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

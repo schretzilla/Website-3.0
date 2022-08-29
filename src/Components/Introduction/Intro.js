@@ -45,25 +45,25 @@ const Intro = () => {
         </ul>
 
         <Row className="justify-content-center">
-          <a href="https://github.com/schretzilla" target="_blank" rel="noopener noreferrer">
-            <img style={style.icon} src={githubIcon} alt="github logo" />
-          </a>
-
-          <a
-            href="http://www.linkedin.com/in/scott-schretzenmaier-26ab1178"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img style={style.icon} src={linkedInIcon} alt="Linked In logo" />
-          </a>
-
-          <a
-            href="https://drive.google.com/open?id=1UzKlP_4Am8XAe6fSScxsFzNZIMKlkeUE"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img style={style.icon} src={resumeIcon} alt="Resume" />
-          </a>
+          <Col sm={12} md={12}>
+            <a href="https://github.com/schretzilla" target="_blank" rel="noopener noreferrer">
+              <img style={style.icon} src={githubIcon} alt="github logo" />
+            </a>
+            <a
+              href="http://www.linkedin.com/in/scott-schretzenmaier-26ab1178"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img style={style.icon} src={linkedInIcon} alt="Linked In logo" />
+            </a>
+            <a
+              href="https://drive.google.com/open?id=1UzKlP_4Am8XAe6fSScxsFzNZIMKlkeUE"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img style={style.icon} src={resumeIcon} alt="Resume" />
+            </a>
+          </Col>
         </Row>
       </Col>
     </Row>
