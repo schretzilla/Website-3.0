@@ -26,5 +26,5 @@ Starts the express server at [http://localhost:8080](http://localhost:8080). Thi
 
 ## Environment Details
 
-- Hosted on [Heroku](https://www.heroku.com/)
-- Heroku deploys directly from the github master branch
+- Hosted on [render](https://render.com/)
+- Render deploys directly from the github mainline branch
