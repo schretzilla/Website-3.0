@@ -1,14 +1,34 @@
 import NorthropLogo from "../Images/Experience/northrop-logo.png";
 import UpmcLogo from "../Images/Experience/upmc_logo.jpg";
 import HikingLogo from "../Images/Experience/gone-hiking-logo.png";
+import AmazonLogo from "../Images/Experience/amazon-logo.png";
 
 const experienceData = [
+  {
+    company: "Amazon",
+    logo: AmazonLogo,
+    title: "Software Engineer",
+    teams: "Prime Video, AMP",
+    dates: "June/2020-Current",
+    description:
+      "Led the team of engineers who own playback functionality across all iOS devices for Amazon’s live radio app",
+    keyPoints: [
+      "Worked with product and project managers to roll out all playback features on time without causing regressions or defects",
+      "Designed the state machine that manages the player’s state and emits telemetry for tracking the user’s experience",
+      "Designed the automated integration testing suite for all playback components utilizing AWS Device Farm",
+      "Implemented live HLS streaming functionality on Amazon’s C++ cross-platform player to unblock AMP’s Android and iOS cross-platform playback capabilities",
+    ],
+    link: {
+      address: "https://www.onamp.com/",
+      name: "AMP",
+    },
+  },
   {
     company: "Northrop Grumman",
     logo: NorthropLogo,
     title: "Software Engineer",
     teams: "B-1 Lancer, B-2 Spirit, RAGE & GBSD",
-    dates: "March/2017-Current",
+    dates: "March/2017-June/2020",
     description:
       "Led multiple agile engineering teams in designing and developing mission critical software for the Air Force",
     keyPoints: [
