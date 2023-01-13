@@ -9,6 +9,7 @@ import wrestlingClub from "../../../Images/ExtraActivities/wrestling-club.jpg";
 import samaritansPurse from "../../../Images/ExtraActivities/samaritans-purse-group.jpg";
 import mountains from "../../../Images/ExtraActivities/mountaineering.jpg";
 import highSchoolWrestling from "../../../Images/ExtraActivities/high-school-wrestling.jpg";
+import surfPhoto from "../../../Images/ExtraActivities/surf-left.jpg";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -37,6 +38,11 @@ export default class SimpleSlider extends Component {
       <Col>
         {/* eslint-disable-next-line react/jsx-props-no-spreading */}
         <Slider {...settings}>
+          {sliderComponent(
+            surfPhoto,
+            "Surfing in L.A.",
+            "The beach is my favorite place to be and I surf every chance I get.",
+          )}
           {sliderComponent(
             ironmanPhoto,
             "ironman finish line",

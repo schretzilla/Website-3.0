@@ -32,7 +32,7 @@ const App = () => {
         <ExtraActivities />
       </Container>
       <Container>
-        <Row className="footer">Updated: 3/2020</Row>
+        <Row className="footer">Updated: 1/2022</Row>
       </Container>
     </>
   );
