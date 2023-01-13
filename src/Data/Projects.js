@@ -85,6 +85,7 @@ const projectData = [
       type: "image",
       name: "Algorithm Website",
       src: algorithmAnimation,
+      url: "https://schretzilla.github.io/Algorithim-Animation/bubble-sort.html",
     },
   },
   {
@@ -100,6 +101,7 @@ const projectData = [
       type: "image",
       name: "Cross Country Adventure Homepage",
       src: xCountryAdventure,
+      url: "https://schretzilla.github.io/adventure-america/index",
     },
   },
   {

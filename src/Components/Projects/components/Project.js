@@ -29,7 +29,9 @@ const Project = (props) => {
   const imageColumn =
     projectData.media.type !== "video" ? (
       <Col xs={{ order: 1, span: 12 }} md={{ order: 0, span: 5 }}>
-        <img className="img-fluid" src={projectData.media.src} alt={projectData.media.name} />
+        <a href={projectData.media.url}>
+          <img className="img-fluid" src={projectData.media.src} alt={projectData.media.name} />
+        </a>
       </Col>
     ) : (
       <Col xs={{ order: 1, span: 12 }} md={{ order: 0, span: 5 }}>
