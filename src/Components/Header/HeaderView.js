@@ -7,7 +7,7 @@ const Header = () => (
     <Container>
       <div className="vertical-center jumbotron">
         <h1 className="name-header">Scott Schretzenmaier</h1>
-        <p id="name-description">Software Engineer, Bug Squasher, Adventure Seeker</p>
+        <p id="name-description">Engineer bridging software and the physical world</p>
       </div>
     </Container>
   </div>

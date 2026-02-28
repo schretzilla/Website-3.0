@@ -30,9 +30,14 @@ const Intro = () => {
           <h1 className="hello-header">Hi, I&apos;m Scott</h1>
         </Jump>
         <p className="about-me">
-          I&apos;m a motivated guy who loves building awesome defense software. I prefer backend
-          development but I dabble with a bit of everything. I&apos;m also a big fan of agile
-          processes, both in development and in life.
+          I build software that supports real-world operations — currently focused on manufacturing
+          environments where complexity is high and clarity matters. My background is in backend and
+          systems architecture, and I work across the stack when it accelerates execution.
+        </p>
+        <p className="about-me">
+          Outside of engineering, I&apos;m usually training for long endurance events or chasing
+          waves near the Pacific. I&apos;m drawn to hard things that reward discipline and compound
+          effort.
         </p>
 
         <ul className="list-inline">
